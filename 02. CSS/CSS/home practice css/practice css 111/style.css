@@ -1,0 +1,810 @@
+
+/*! Ways of CSS */
+
+/* h3{
+    color: brown;
+} */
+ 
+/*! priority
+  Inline > > Internal > > External CSS. */
+  /* h1{
+    color: aqua;
+  } */
+
+  /*! @import url(./home.css);
+  @import url(./about.css);
+  @import url(./contact.css); */
+
+  /*!  (1) Simple selector */
+  /*? (v) Universal seletor  */
+  /* *{
+    margin: 0;
+    padding: 0;
+  } */
+
+  /*? (i) selector : ID */
+/* #headingTag{
+    color: red;
+    background-color: yellow;
+} */
+
+/*? (ii) Tag name  */
+/* h3{
+    color: white;
+    background-color: red;
+} */
+
+/*? (iii) Class selector */
+/* .head2{
+    color: blue;
+    background-color: black;
+} */
+
+/*? (iv) Grouping selector */
+/* #headingTag, .head2, h3{
+    padding: 20px;
+} */
+
+
+/*! (2) Combinator selector */
+/*? (i) Descendent selector */
+/* .parent p{
+    color: white;
+    background-color: darkgray;
+} */
+
+/*? (ii) child seletor */
+/* .parent > p{
+    color: white;
+    background-color: darkblue;
+} */
+
+ /*? (iii)Immediate / Adjacent Sibling Selector  */
+/* #head1+p{
+color: white;
+background-color: grey;
+} */
+
+/*? (iv)General sibiling selector */
+/* #head1~p{
+    margin: 10px;
+    padding: 10px;
+    color: white;
+   background-color: darkgreen;
+} */
+
+
+/*! 3. Attribute Selector  */
+
+/* a[href='https://www.google.com/']
+{
+    text-decoration: none;
+    color: black;
+} */
+/* 
+img[src=""]{
+
+} */
+/* input[type="text"]{
+    border: none;
+    border-bottom: 1px dotted red;
+
+}
+input[name="Email"]{
+    border: none;
+    border-bottom: 1px dotted blue;
+}
+input[type="email"]+label{
+    color: red;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+} */
+
+
+/*! 4. Pseudo Class Selector */
+
+/* button[type="submit"]:hover{
+    color: white;
+    background-color: black;
+    transform: scale(1.5);
+}
+
+button[type="reset"]:active{
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+}
+
+input[type="checkbox"]:checked+label{
+    color: red;
+} */
+
+
+ /*! 5. Pseudo Element Selector */
+/* p::first-line{
+    color: red;
+}
+p::first-letter{
+    background-color: black;
+}
+p::before{
+    content: "Demo Content"
+} */
+
+
+/*! Unit of CSS */
+/*? 1. Absolute unit  */
+/* .parent{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    padding: 10px;
+}
+.child{
+    height: 250px;
+    width: 250px;
+    background-color: blue;
+} */
+
+
+/*? 2. Relative Unit  */
+
+ /* .parent{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    padding: 10px;
+}
+.child{
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+} */
+
+/*? 3. Viewport Unit  */
+/*^ Percentage */
+/* .parent{
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+} */
+
+/*^ VH and VW */
+ /* .parent{
+    height: 100vh;
+    width: 100vw;
+    background-color: gray;
+} */
+
+/*^ (a). EM */
+/* body{
+    color: white;
+}
+ .parent{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    padding: 10px;
+    font-size: 50px;
+}
+.child{
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    font-size: 3em;
+} */
+
+
+/*^ (b). REM */
+
+/* body{
+    color: white;
+}
+ .parent{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    padding: 10px;
+    font-size: 50px;
+}
+.child{
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    font-size: 5rem;
+} */
+
+/*! Box Model */
+
+ /* .parent{
+    height: 500px;
+    width: 600px;
+    background-color: black;
+    
+    font-size: 50px;
+}
+.child{
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    font-size: 40px; */
+
+    /*? border */
+    
+    /* border: 5px solid white; */
+
+    /*? margin */
+
+    /* margin: 50px;
+    margin: 50px 100px;
+    margin: 20px 40px 60px;
+    margin: 20px 40px 60px 80px;
+
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    margin-left: 80px; */
+
+    /*? Padding */
+
+    /* padding: 50px;
+    padding: 50px 100px;
+    padding: 20px 40px 60px;
+    padding: 20px 40px 60px 80px;
+
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+} */
+
+
+
+/* p{
+    color: red;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+    line-height: 50px;
+
+    font-size: 50px;
+    font-weight: 100;
+
+    /*? text-decoration */
+
+    /* text-decoration-thickness: 2px;
+    text-decoration-line: line-through;
+    text-decoration: double;
+    text-decoration: blue;
+
+    text-decoration: underline dashed black 2px;
+
+
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+
+} */ 
+
+
+
+
+/*? text-shadow: x-offset y-offset blur color; */
+/* h1{
+
+    text-shadow: 1px 1px 9px yellow;
+
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    font-family: cursive;
+} */
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+/* div{
+    
+    height: 500vh;
+    width: 500vh;
+    border: 2px solid;
+
+    background-color: aqua;
+    background-image: url('https://tse3.mm.bing.net/th/id/OIP.8Lk59TAfQfuiL2Xw-EP8nQHaGk?r=0&pid=Api&P=0&h=180');
+
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+
+    background-position-x: left;
+    background-position-x: right;
+    background-position-x: center;
+
+    background-position-y: top;
+    background-position-y: bottom;
+    background-position-y: center;
+
+    background-position: center;
+
+    background-size: auto;
+    background-size: contain;
+    background-size: cover;
+} */
+
+/* 
+div{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+
+    background-image: url('https://wallpaperaccess.com/full/352347.jpg');
+    background-position: center;
+} */
+
+
+
+ /*! Display flex */
+
+ 
+/* .parent{
+    height: 300px;
+    width: 500px;
+    background-color: black;
+
+    display: flex;
+    
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row;
+
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    justify-content: center;
+
+
+
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center; */
+
+    /* flex-wrap: nowrap;
+    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;  */
+    
+
+    /* row-gap: ;
+    column-gap: ; */
+     /* gap: 20px;  */
+
+    
+/* }
+.child{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border: 2px solid red; */
+
+    
+/* }
+ .box1{
+    order: 1; */
+    /* flex-shrink: 1; */
+    /* flex-grow: 1;
+ }
+ .box2{
+    order: 1; */
+    /* flex-shrink: 3;
+    flex-grow: 3; */
+ /* }
+.box3{
+    order: 5; */
+    /* flex-shrink: 1; */
+    /* flex-grow: 1;
+} */
+
+ 
+/* Transition */
+/* button{
+    
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transition-delay: 0.2s;
+}
+button:hover{
+   
+    background-color: red;
+    color: white;
+    transform: scale(1.5);
+} */
+
+
+
+/*! transform */
+/* body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+background-color: black;
+}
+div:hover{
+    transform: scale(1.5);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*! position */
+
+/* *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+nav{
+    margin-left: 10vw;
+    height: 100px;
+    width: 80vw;
+    background-color: black; */
+    
+    /* position: sticky;
+    top: 50px; */
+    /* position: fixed;
+    top: 0px;
+    bottom: 0;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    padding: 50px;
+}
+    div{
+    height : 100%;
+}
+.box1, .box2{
+    height: 550px;
+    width: 100px;
+    background-color: aqua;
+    position: fixed;
+    top: 50px;
+}
+.box2{
+   
+    height: 550px;
+    width: 100px;
+    background-color: pink;
+    position: fixed;
+} */
+
+
+
+
+
+/*! Animation */
+
+/* body{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    animation-name: bounceText;
+    animation-duration: 0.8s;
+    animation-timing-function: linear;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes bounceText {
+    from{
+        top: 0px;
+    }
+    to{
+        top:30px;
+    }
+} */
+
+
+
+
+/* body{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+div{
+    height: 100px;
+    width: 500px;
+    background-color: rgb(27, 12, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 250px;
+    border: 1px solid yellow;
+    color: white;
+
+}
+.box1{
+      position: relative;
+      color: red;
+      font-size: 20px;
+      animation-name: bounceText;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes bounceText {
+    from{
+        left: 0px;
+    }
+    to{
+        left:100px;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+div{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+
+    position: relative;
+
+    animation-name: boxMove;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: normal;
+}
+@keyframes boxMove{
+    0%{
+        top: 0;
+        left : 0;
+
+    }
+    25%{
+        top: 0;
+        left: 500px;
+        background-color: black;
+
+    }
+    50%{
+        top: 250px;
+        left: 500px;
+        background-color: red;
+    }
+    75%{
+        left: 0px;
+        top: 250px;
+        background-color: green;
+        }
+100%{
+left: 0;
+top: 0;
+background-color: blue;
+}
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    height: 100vh;
+   
+      background-color: black;
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+div{
+    height: 100px;
+    width: 100px;
+   
+    border-radius: 50px;
+    position: relative;
+   
+  
+}
+.box{
+    
+    background-color: yellow;
+    animation-name: tarun;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: normal;
+}
+@keyframes tarun {
+    from{
+        top: -180px;
+    }
+    to{
+        top:180px;
+    }
+} */
+
+
+
+
+
+
+
+/* div{
+    height: 50px;
+    width: 50px;
+    border: 5px solid gray;
+    border-top: 5px solid blue;
+    border-radius: 500px;
+    position: relative;
+
+    animation-name: tarun;
+    animation-duration: 0.6s;
+    animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: normal;
+
+}
+@keyframes tarun {
+   to{
+    transform-rotate:360deg;
+   }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*! Media query  */
+
+/* =======================================================
+
+Defult style ye tab hota hai jn screen wifdth 1200px se badi hogi.
+( ageer koi media query match nhi hoti )
+*/
+body{
+    background-color: Black;
+}
+
+/* =============================================================
+max-width: 1200px
+mtlb : ager screen ki width 1200px ya usse kaam hai, 
+to background red ho jayega.
+=================================================*/
+
+@media (max-width: 1200px){
+    body{
+        background-color: red;
+    }
+}
+
+/*============================================================
+max-width: 992px;
+mtlb : ager screen 992px se ya usse kamm ho to background color 
+blue ho jayega.
+
+
+
+note: 
+ye 1200px wali media query ko override karega,
+kuki ye niche likhi hui hai
+=================================================*/
+
+@media (max-width: 992px){
+    body{
+    background-color: blue;
+}
+}
+
+/*=========================================================================
+max-width: 780px;
+mtlb : ager screen 780px ya usse kaam ho,
+to backgroung color green ho jayega.
+=====================================================*/
+
+@media (max-width: 780px) {
+    body{
+        background-color: green;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+

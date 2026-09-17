@@ -1,0 +1,336 @@
+/* 
+#head {
+    color: red;
+}
+
+.development
+{
+    color: blue;
+}
+p{
+    color: brown;
+}
+
+#head,.debelopment,p{
+    border: px solid;
+} 
+
+
+
+.box p{
+    color: green;
+}
+.box > p{
+    color: pink;
+ } 
+ .head1 + p{
+    color: pink;
+
+ } 
+ .head1 ~ p{
+    color: blanchedalmond;
+ } 
+
+   input[type]{
+    background-color: aquamarine;
+ }
+
+ input[type="email"]{
+    background-color:black;
+ }
+ input[name="xyz"]{
+    color: blue;
+ }
+
+ img[src="https://www.ionos.ca/digitalguide/fileadmin/_processed_/0/d/csm_html-tagst_b3a4c47b7f.webp"]{
+    border: 2px solid ;
+    height: 200px;
+    width: 200px;
+ }
+
+ a[href="./home.html"]{
+    color: rgb(204, 255, 0);
+    text-decoration: none;
+ } 
+
+
+
+  button:hover{
+    background-color: black;
+ }
+ button:active{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}
+input:checked+label{
+    color: red;
+}
+p::first-line{
+    color: blue;
+}
+p::first-letter{
+    background-color: yellow;
+    color: black;
+}
+
+
+
+p::before{
+    content: "this is a contant";
+}
+
+
+.parent{
+    height: 500px;
+    width: 600px;
+    background-color: black;
+}
+.child{
+    height: 50%;
+    width: 50%;
+    background-color: red;
+
+}
+.head{
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+} 
+
+div{
+    display: inline;
+    border: 3px solid;
+    height: 200px;
+    width: 300px;
+}
+span{
+    display: block;
+    border: 3px solid ;
+    height: 200px;
+    width: 300px;
+}
+p{
+    display: inline-block;
+    border: 2px solid;
+    height: 200px;
+    width: 400px;
+} 
+
+ div{
+    height: 300px;
+    width: 300px;
+    border: 5px solid black; 
+ }
+ *{
+    margin: 50px;                  
+    margin: 30px 60px 90px;            
+    margin: 20px 40px 60px 80px;       
+
+    margin-top:  20px;
+    margin-bottom: 40px;
+    margin-left: 60px;
+    margin-right: 80px;   
+
+ border-width: 10px;
+border-style: dotted;
+border-color: red;
+
+border-top: 5px solid blue;
+
+border-left-width: 5px;
+border-right-style: dashed;
+border-left-color:red ;
+
+border-right: 5px dotted green;
+
+border-bottom-width: 5px;
+border-bottom-style: double;
+border-bottom-color: pink;
+
+border-radius: 20px;
+border-top-left-radius: 50px;
+border-top-right-radius: 100px;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px; 
+
+border-top: 200px;
+border-top: 5px solid blue;
+
+border-left-width: 5px;
+border-right-style: dashed;
+border-left-color:red ;
+
+border-right: 5px dotted green;
+
+border-bottom-width: 5px;
+border-bottom-style: double;
+border-bottom-color: pink;
+
+border-radius: 20px;
+border-top-left-radius: 50px;
+border-top-right-radius: 100px;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+border-radius: 50%;
+
+} 
+ .parent{
+    height: 600px;
+    width: 500px;
+     
+}  */
+
+
+
+/* .gridContainer{
+    height: 500px;
+    width: 800px;
+    background-color: black;
+    
+    display: grid;
+
+    grid-template-rows: 32% 32% 32%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.gridItems{
+    border: 2px solid white;
+    background-color: aqua;
+}
+.sidebar{
+    background-color: green;
+
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.header{
+    background-color: green;
+
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.box8{
+    background-color: green;
+
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+    grid-column-start: 4;
+    grid-column-end: 5;
+
+} */
+
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#f2f2f2;
+    font-family:Arial, sans-serif;
+}
+
+.container{
+    width:900px;
+    display:grid;
+    grid-template-columns:1fr 2fr 2fr;
+    grid-template-rows:100px 150px 150px 100px;
+    gap:10px;
+}
+
+.header{
+    grid-column:1/4;
+    background:limegreen;
+}
+
+.sidebar{
+    grid-row:2/4;
+    grid-column:1/2;
+    background:limegreen;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.box1{
+    background:limegreen;
+}
+
+.box2{
+    background:limegreen;
+}
+
+.box3{
+    background:limegreen;
+}
+
+.box4{
+    background:limegreen;
+}
+
+.footer{
+    grid-column:1/4;
+    background:limegreen;
+}
+
+.header,
+.footer,
+.box,
+.sidebar{
+    border:3px solid #444;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+    font-weight:bold;
+} */
+
+
+/* .abc{
+    height: 500px;
+    width: 900px;
+    background-color: black;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.box{
+    background-color: blue;
+    border: 1px solid;
+} 
+.box1{
+   grid-row: 1/4;
+   background-color: red;
+}
+.box2{
+     grid-column: 2/4;
+    background-color: green;
+}
+.box3{
+     grid-row: 2/4;
+    background-color: yellow;
+} */
+ 
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    height: none;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+
+}

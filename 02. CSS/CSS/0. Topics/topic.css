@@ -1,0 +1,555 @@
+/* 
+
+🎨 Complete CSS Topics
+
+
+🟢 1. CSS Basics
+What is CSS?
+Why CSS is used
+Features of CSS
+Advantages of CSS
+CSS Syntax
+CSS Rules
+CSS Comments
+CSS Selectors
+CSS Properties
+CSS Values
+CSS Declaration
+CSS Cascade
+
+
+🟢 2. Types of CSS
+Inline CSS
+Internal CSS
+External CSS
+Inline vs Internal vs External CSS
+CSS file linking
+@import
+
+
+🟢 3. CSS Selectors ⭐
+Universal Selector *
+Element Selector
+Class Selector .
+ID Selector #
+Group Selector
+Descendant Selector
+Child Selector >
+Adjacent Sibling Selector +
+General Sibling Selector ~
+Attribute Selector
+Multiple Class Selector
+Pseudo-class Selector
+Pseudo-element Selector
+
+
+🟢 4. Colors
+Color Names
+HEX
+RGB
+RGBA
+HSL
+HSLA
+currentColor
+Transparent
+
+
+🟢 5. Background
+background-color
+background-image
+background-repeat
+background-position
+background-size
+background-attachment
+background-origin
+background-clip
+Multiple Backgrounds
+Linear Gradient
+Radial Gradient
+Conic Gradient
+
+
+🟢 6. CSS Units
+px
+%
+em
+rem
+vh
+vw
+vmin
+vmax
+ch
+ex
+cm
+mm
+in
+pt
+pc
+Important: px vs % vs em vs rem vs vh vs vw
+
+
+
+🟢 7. Box Model ⭐⭐⭐
+Content
+Padding
+Border
+Margin
+Width
+Height
+box-sizing
+content-box
+border-box
+min-width
+max-width
+min-height
+max-height
+Important:
+
+CSS Box Model : Content → Padding → Border → Margin
+
+
+🟢 8. Margin & Padding
+margin
+margin-top
+margin-right
+margin-bottom
+margin-left
+padding
+padding-top
+padding-right
+padding-bottom
+padding-left
+Shorthand properties
+Margin collapsing
+
+
+🟢 9. Border
+border
+border-width
+border-style
+border-color
+border-radius
+Individual borders
+border-image
+Outline
+outline-offset
+
+
+🟢 10. Text & Fonts ⭐
+color
+font-family
+font-size
+font-weight
+font-style
+font-variant
+line-height
+letter-spacing
+word-spacing
+text-align
+text-decoration
+text-transform
+text-indent
+text-shadow
+white-space
+word-break
+overflow-wrap
+text-overflow
+
+
+🟢 11. CSS Fonts
+Generic Font Families
+Web-safe Fonts
+Google Fonts
+@font-face
+Font fallback
+Font weight
+Variable Fonts
+
+
+🟢 12. Display ⭐⭐⭐
+display: block
+display: inline
+display: inline-block
+display: none
+display: flex
+display: grid
+display: table
+display: contents
+Important: Block vs Inline vs Inline-block
+
+
+
+🟢 13. Position ⭐⭐⭐
+position: static
+position: relative
+position: absolute
+position: fixed
+position: sticky
+top
+right
+bottom
+left
+z-index
+Important: Relative + Absolute
+
+
+
+🟢 14. Overflow
+overflow
+overflow-x
+overflow-y
+visible
+hidden
+scroll
+auto
+Text overflow
+
+
+🟢 15. Float & Clear
+float
+float: left
+float: right
+clear
+Float layout
+Clearing floats
+
+Flexbox/Grid are preferred for modern layouts, but float is still useful to understand for interviews and older code.
+
+
+
+🔵 16. Flexbox ⭐⭐⭐
+What is Flexbox?
+Flex Container
+Flex Items
+display: flex
+flex-direction
+flex-wrap
+flex-flow
+justify-content
+align-items
+align-content
+gap
+row-gap
+column-gap
+order
+flex-grow
+flex-shrink
+flex-basis
+flex
+align-self
+Must Know: Main Axis vs Cross Axis
+
+
+🔵 17. CSS Grid ⭐⭐⭐
+What is CSS Grid?
+Grid Container
+Grid Items
+display: grid
+grid-template-columns
+grid-template-rows
+grid-column
+grid-row
+grid-column-start
+grid-column-end
+grid-row-start
+grid-row-end
+grid-template-areas
+grid-area
+gap
+row-gap
+column-gap
+justify-items
+align-items
+place-items
+justify-content
+align-content
+place-content
+repeat()
+minmax()
+auto-fit
+auto-fill
+fr unit
+Important: Flexbox vs Grid
+
+
+🔵 18. Responsive Design ⭐⭐⭐
+What is Responsive Design?
+Mobile-first Design
+Desktop-first Design
+Media Queries
+@media
+Breakpoints
+Responsive images
+Responsive typography
+Flexible layouts
+max-width
+min-width
+clamp()
+
+
+🔵 19. Pseudo-Classes ⭐
+:hover
+:active
+:focus
+:visited
+:link
+:first-child
+:last-child
+:nth-child()
+:nth-of-type()
+:first-of-type
+:last-of-type
+:not()
+:is()
+:where()
+:has()
+
+
+🔵 20. Pseudo-Elements
+::before
+::after
+::first-letter
+::first-line
+::selection
+::placeholder
+::marker
+
+
+🔵 21. CSS Specificity ⭐⭐⭐
+What is Specificity?
+Universal selector specificity
+Element specificity
+Class specificity
+ID specificity
+Inline style
+!important
+Specificity calculation
+Cascade
+Inheritance
+Basic order: Inline > ID > Class/Attribute/Pseudo-class > Element/Pseudo-element
+
+
+🔵 22. CSS Variables ⭐
+CSS Custom Properties
+Declaring variables
+--variable
+var()
+Global variables
+Local variables
+Theme creation
+Dark mode using variables
+
+
+🔵 23. Transitions
+transition
+transition-property
+transition-duration
+transition-timing-function
+transition-delay
+ease
+linear
+ease-in
+ease-out
+ease-in-out
+
+
+🔵 24. Transform
+transform
+translate()
+translateX()
+translateY()
+scale()
+rotate()
+skew()
+transform-origin
+2D Transform
+3D Transform
+
+
+🔵 25. CSS Animations ⭐
+@keyframes
+animation-name
+animation-duration
+animation-delay
+animation-iteration-count
+animation-direction
+animation-timing-function
+animation-fill-mode
+animation-play-state
+Shorthand animation
+
+
+🔵 26. Shadows
+box-shadow
+text-shadow
+Multiple shadows
+Inset shadow
+
+
+🔵 27. Images
+object-fit
+object-position
+background-image
+background-size: cover
+background-size: contain
+Image responsiveness
+Image cropping
+Image overlays
+
+
+🔵 28. CSS Functions ⭐
+calc()
+min()
+max()
+clamp()
+var()
+rgb()
+rgba()
+hsl()
+url()
+attr()
+repeat()
+minmax()
+
+
+🔵 29. CSS Logical Properties
+margin-inline
+margin-block
+padding-inline
+padding-block
+border-inline
+border-block
+inset-inline
+inset-block
+
+
+🔵 30. Advanced Layout
+Normal Flow
+Positioning Context
+Stacking Context
+z-index
+Containing Block
+Formatting Context
+Block Formatting Context
+Flex Formatting Context
+Grid Formatting Context
+
+
+🔴 31. CSS Architecture
+CSS Naming
+BEM
+Component-based CSS
+Modular CSS
+CSS Modules
+Utility-first CSS
+Atomic CSS
+CSS Organization
+
+
+🔴 32. CSS Preprocessors
+What is CSS Preprocessor?
+Sass
+SCSS
+Variables
+Nesting
+Mixins
+Functions
+Partials
+@import
+@use
+@extend
+
+
+🔴 33. CSS Frameworks
+Bootstrap
+Tailwind CSS
+Material UI
+Responsive frameworks
+Utility classes
+Component libraries
+
+For your React preparation, especially know:
+
+CSS → Bootstrap → Tailwind CSS
+
+🔴 34. Modern CSS
+CSS Nesting
+Container Queries
+@container
+:has()
+:is()
+:where()
+aspect-ratio
+accent-color
+scroll-behavior
+scroll-snap
+backdrop-filter
+mix-blend-mode
+isolation
+
+
+🔴 35. Accessibility CSS
+Focus styles
+:focus-visible
+Keyboard navigation
+Reduced motion
+prefers-reduced-motion
+Color contrast
+Screen-reader considerations
+Accessible forms
+
+
+🔴 36. CSS Performance
+CSS optimization
+Minification
+Removing unused CSS
+Critical CSS
+CSS loading
+Avoiding excessive selectors
+Reducing reflows
+Reducing repaints
+Browser rendering basics
+
+
+🔴 37. Important CSS Interview Questions ⭐⭐⭐
+
+What is CSS?
+What is Box Model?
+box-sizing: border-box vs content-box
+display: none vs visibility: hidden
+opacity: 0 vs display: none
+Inline vs Block vs Inline-block
+Relative vs Absolute
+Fixed vs Sticky
+Flexbox vs Grid
+justify-content vs align-items
+position vs display
+em vs rem
+px vs %
+vh vs vw
+Margin vs Padding
+Class vs ID
+Pseudo-class vs Pseudo-element
+What is Specificity?
+What is z-index?
+What is CSS inheritance?
+What is CSS cascade?
+What is !important?
+What are CSS variables?
+What is Responsive Design?
+What are Media Queries?
+What is Mobile-first design?
+What is Flexbox?
+What is Grid?
+What is overflow?
+What is object-fit?
+What is transition?
+What is transform?
+What is animation?
+What is ::before and ::after?
+What is calc()?
+What is clamp()?
+What is BEM?
+What is CSS Modules? 
+
+*/

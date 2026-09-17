@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- style tag -->
+    <!-- <style>
+          /* basic css style  */
+       h1{
+            color: red;
+        }
+    </style>     -->
+
+    <!-- link style ko add kr ne ke liye hota css ko  -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- <style>
+        button{
+            background-color: blue;
+        }
+    </style>        style element  -->
+
+</head>
+<body>
+<!-- including style -->
+
+    <!-- Inline CSS -->
+    <!-- <h1 style="color: red">This is a headung tag</h1>
+    <h1 style="color: green">This is a heading tag</h1> -->
+
+    <!-- inline style  -->
+    <!-- <h1 style="color:brown">This is a headung tag</h1>
+    <h1>This is a heading tag</h1> -->
+
+    <!-- color property -->
+     <!-- <h1>This is a heading</h1>
+     <p>This is a simple paragraph</p>
+     <button>Click me</button> -->
+
+     <!-- background color -->
+    <!-- body{
+    background-color: yellow;
+} -->
+ 
+<!-- color system 
+RGB >>> RED, GREEN, BLUE
+color: rgb(255,0,0);
+color: rgb(0,255,0);      range > 0 to 255
+
+Hex >>> (Hexadecimal)
+color: #ff0000;
+color: #00ff00;          range > 00 to ff -->
+
+<!-- Selectors  -->
+<!-- 1. Universal selector   *{} --     * -- asterisk 
+*{
+color: blue;
+}   -->
+
+ <!-- 2. Elememt selector     h1{} 
+/* h1{
+    color: green;
+} */
+button{
+    color: brown;
+} -->
+
+<!-- 3. Id selector         #myid{} unique name  -->
+<!-- <h1 id="headingOne">This is a heading1</h1>
+ <h1 id="headingTwo">This is a heading2</h1>
+ <h1 id="headingThree">This is a heading3</h1>
+     <p>This is a simple paragraph</p>
+     <button>Click me</button> -->
+
+<!-- 4. Class selctor       .myxlass{} -->
+<!-- <h1 id="headingOne">This is a heading1</h1>
+ <h1 id="headingTwo">This is a heading2</h1>
+ <h1 class="myClass">This is a heading3</h1>
+     <p class="myClass">This is a simple paragraph</p>
+     <button>Click me</button> -->
+
+     <!-- div background color  -->
+<!-- <div id="box">
+   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi quos et ea tenetur cupiditate consequuntur. Deserunt ex asperiores earum dicta autem eaque beatae laborum omnis, harum aut. Magni, fugit libero.
+</div> -->
+
+<!-- h1, h2, h3  heading & set color heading -->
+ <!-- <h1 class="heading">Heading 1</h1>
+ <h2 class="heading">Heading 2</h2>
+ <h3 class="heading">Heading 3</h3> -->
+
+ <!-- create a button  -->
+  <!--  inline style  <button style="background-color: pink">Click me</button> -->
+
+
+  <!-- Text Properties -->
+<!-- text align -->
+<!-- 1. text-align: left/rigth/center -->
+ <!-- <h1>heading</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Sit ipsa repellendus sequi amet saepe.</p> -->
+
+    <!-- 2. text-decoration -->
+  <!-- <h1>heading</h1>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia dolor esse voluptate iusto recusandae aspernatur, sequi optio fugit cum? Modi inventore nostrum veniam explicabo, doloribus quisquam ex officiis. Repellat, a.</p>
+<a href="https://www.google.com/">click me</a> -->
+
+<!-- 3. font-weight -->
+<!-- font-weight : normal/bold/ border/lighter -->
+ <!-- font-weight: 100-900 -->
+<!-- <h1 id="h1">heading 1</h1>
+<h1 id="h2">heading 2</h1>
+<h1 id="h3">heading 3</h1>
+<h1 id="h4">heading 4</h1> -->
+
+<!-- 4. font-family -->
+<!-- <h1>heading</h1>
+<p id="One">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+     Labore deserunt ad sapiente aliquid sint non adipisci dignissimos beatae eaque, quis minima perferendis itaque,
+      blanditiis perspiciatis. Id necessitatibus placeat nihil? Deserunt quos, voluptate, culpa possimus nam suscipit 
+      commodi sapiente est pariatur nesciunt quod natus provident error voluptatum magnam eum ex repudiandae.</p>
+      <p id="Two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae distinctio, quae ducimus minima, similique inventore possimus molestias cupiditate, quia minus nulla quasi beatae dignissimos dicta? Reiciendis sed cumque, quos nisi nulla omnis, quas quia amet a repellendus, voluptatum aperiam voluptatibus? Repellat reiciendis officia eum natus veritatis aliquam nesciunt ad a.</p> -->
+
+      <!-- Units CSS -->
+       <!-- Absolute -->
+        <!-- Pixels (px) -->
+         <!-- 96px = 1 inch  = 2.54cm
+         font-size: 2px; -->
+
+<!-- font size -->
+<!-- <p>
+    <p id="one">para1</p>
+    <p id="two">para2</p>
+    <p id="three">para3</p>
+</p> -->
+
+<!-- line-height -->
+ <!-- <p id="one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium architecto quae tempora commodi est rerum velit dolore officia, 
+    dolores sint eveniet deleniti porro cupiditate tenetur accusamus quasi aut impedit in.</p> -->
+    
+
+<!-- text-trasform -->
+<!-- <p id="one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium architecto quae tempora commodi est rerum velit dolore officia, 
+    dolores sint eveniet deleniti porro cupiditate tenetur accusamus quasi aut impedit in.</p> -->
+
+
+    <!--  > BOX model in CSS
+      1. height : by default, it sets the content area height of the element.
+      div{
+      height: 50px;
+      }
+      2. width : by default, it sets the content area width of the element.
+      div{
+      width: 50px;
+      }
+       3. border : used to set an element's border.
+       (border-with: 2px;
+       border-style: solid/dotted/dashed;
+       border-color: black;)
+       3. border shorthand: (border: 2px solid black;)
+
+      <h1>Heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt provident consequatur iste repellendus natus sequi sed blanditiis reprehenderit facere?
+     Quam vel officia exercitationem maxime deleniti inventore dolores blanditiis, veniam iusto?</p>
+        <button>Click me</button>
+    <div>This is a div</div>-->
+
+     <!-- 3. border radius : used to round the corners of an 
+       element outer border edge.
+       (border-radius: 10px;
+       border-radius: 50%;)  -->
+      <!-- <div>div1</div>
+      <br>
+      <div>div2</div>
+      <br>
+      <div>div3</div> -->
+
+      <!-- 4. Padding , 5.Margin -->
+       <!-- padding left , padding right , padding top , padding bottom. -->
+         <!-- margin left , margin right , margin top , margin bottom. -->
+      <!-- <div>div1</div>
+      <br>
+      <div>div2</div>
+      <br>
+      <div>div3</div>  -->
+
+
+
+     <!-- tarun set the navbar AMAZON -->
+     <!-- <div id="navbar">
+        <a id="logo">amazon.in</a>
+        <a href="#">Account</a>
+        <a href="#">My Cart</a>
+        <a href="#">Contact Us</a>
+        <input placeholder="search Amazon.in">
+        <button>Search</button>
+     </div> -->
+
+     <!-- Display Property -->
+      <!-- display : 
+       inline : takes only the space required by the element.
+        (no marhin / padding)-->
+        <!-- block : takes full space availabe in width. -->
+             <!-- <div> this is a div</div>
+        <button>click me</button> -->
+        <!-- <h1>Heading playground</h1>
+        <div style="background-color: blue">box1</div>
+        <div style="background-color: green;">box2</div>
+        <div style="background-color: red;">box3</div> -->
+
+        <!-- inline-block : similar to inline but we can set margin & padding. -->
+        <!-- <h1>Heading playground</h1>
+        <div style="background-color: blue">box1</div>
+        <div style="background-color: green;">box2</div>
+        <div style="background-color: red;">box3</div>  -->
+
+         <!-- none : to remove element from document flow. -->
+         <!-- <h1>Heading playground</h1> 
+        <div style="background-color: blue">box1</div>
+        <div id="box2" style="background-color: green;">box2</div>
+        <div style="background-color: red;">box3</div> -->
+         
+
+        <!-- visibility : when visibility is set to none, space for the element is reversed 
+         but for display set to none, no space is reserved or blocked for the element. -->
+        <!-- visibility : hidden; -->
+        <!-- <h1>Heading playground</h1> 
+        <div style="background-color: blue">box1</div>
+        <div id="box2" style="background-color: green;">box2</div>
+        <div style="background-color: red;">box3</div> -->
+      
+         <!-- alpha channel -->
+              <!-- background-color: rgba(255, 0, 0, 0.5); -->
+         <!-- <h1>Heading playground</h1> 
+        <div>box1</div> -->
+        
+              <!-- <h1>Heading playground</h1> 
+        <div id="box1">box1</div>
+         <div id="box2">box2</div>
+          <div id="box3">box3</div> -->
+
+          <!-- question solve -->
+           <!-- <header>
+            <div id="navbar">
+        <a id="logo">amazon.in</a>
+        <a href="#">Account</a>
+        <a href="#">My Cart</a>
+        <a href="#">Contact Us</a>
+        <input placeholder="search Amazon.in">
+        <button>Search</button>
+     </div>
+    </header> -->
+
+         <!-- <div id="content">
+            <div class="contentBox"></div>
+            <div class="contentBox"></div>
+            <div class="contentBox"></div>
+         </div> -->
+         <!-- <br>
+         <div id="content">
+            <div class="contentBox" style="background-color: red">This is soup</div>
+            <div class="contentBox" style="background-color: blue">This is carton</div>
+            <div class="contentBox" style="background-color: green">This is apple</div>
+         </div>
+         <br>
+         <footer>Made with &hearts; by Amazon
+            &#169; 1996-2023,Amazon.com, Inc. or its affiliates
+         </footer>  -->
+
+         
+         <!-- Units in CSS -->
+         <!-- Percentage (%) : it is often a define a size as relative to an element 
+         parent object  
+         width: 33%;
+         margin-left: 50%.
+          -->
+       <!-- <div id="box1">
+       <div id="box2">Box2</div>
+</div> -->
+
+       <!-- em : font size of the parent, in the case of typographical properties like 
+        font-size, and font size of the element itself, in the case of other properties like width.
+         -->
+        <!-- <div id="box1">Box1
+       <div id="box2">Box2</div>
+</div> -->
+
+       <!-- rem : font size of the root element -->
+        <!-- hello
+<div id="box1">Box1
+       <div id="box2">Box2</div>
+</div>  -->
+
+
+  <!-- Other
+   vh: relative to 1% viewport height
+    vw: relative to 1% viewport width -->
+   <!-- hello
+<div id="box1">Box1
+       <div id="box2">Box2</div>
+</div>  -->
+
+
+<!-- Position : the position CSS property sets how an element is 
+os positioned in a document.
+Position : 
+static : default position (the top, right, bottom, left, amd z-index
+properties have no effect.)
+ relative : element is relative to itself.( the top, right, bottom, left, and z-index 
+ will work.)
+  absolute : positioned relative to its closest positioned ancestor.
+  (removed from flow)
+   fixed : positioned relative to browser. (removed from flow) 
+   stickey : positioned based on user's scroll position. 
+   -->
+<!-- <div id="box4" style="background-color: blue">box4</div>
+<h1>Positioned Playground</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi corporis ab perferendis expedita dignissimos! Velit totam quod, veritatis officia eveniet perspiciatis inventore sequi error dolorem quam quaerat ullam repudiandae nemo?
+Debitis placeat facilis laudantium quam incidunt tempora laborum tenetur consectetur? Molestiae, id fugiat. Quas cum nostrum quam rem, architecto provident doloremque repellat quod recusandae, earum nulla dignissimos ea molestias eveniet!
+Doloribus optio incidunt accusamus! Optio vero maxime esse ipsam quibusdam, nam doloribus? Pariatur ab placeat earum sit aperiam veritatis, commodi quae quia voluptatem qui dignissimos nesciunt quis nihil perspiciatis eaque!
+Quibusdam, magnam quisquam. Inventore hic quisquam eligendi maiores rerum, alias, accusantium eum nisi facere quasi unde fugit voluptatibus similique sunt vel. Fugit quis quo magni reiciendis quasi labore voluptatibus magnam.
+Doloremque vitae perferendis quod accusantium hic dolore eius labore in esse rerum, voluptates culpa nemo at iusto corporis. Sapiente ipsum unde quidem dolores? Voluptatibus aliquid quibusdam perspiciatis, cupiditate sit minus.
+Quo optio nulla eveniet distinctio mollitia, modi magnam iusto earum, quia labore eius fuga eaque ea! Labore repellat quas ratione, exercitationem officia, quasi maiores dolorum odio unde dolores tempore voluptas?
+Sapiente quae voluptatem ab nulla error nam culpa quaerat. Dicta, illo, laboriosam delectus corporis quasi molestiae ab minima consequuntur blanditiis, repellendus qui autem nesciunt dolore. Mollitia nulla sed maxime quo.
+te iusto est quam voluptas at culpa odio molestias quod adipisci qui non magni officia porro nulla alias error, aliquam dicta quae suscipit? Esse labore veritatis vero!</p> -->
+
+<!-- z-index 
+ z-index : it decides the stack level of elements 
+ Overlapping elements with a larger z-index cover those with a smaller one. 
+ 
+ z-index: auto(0)
+ z-index: 1/2/...
+ z-index: 1/-2/...
+ -->
+ <!-- <div id="box4" style="background-color: blue">box4</div>
+<h1>Positioned Playground</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi corporis ab perferendis expedita dignissimos! Velit totam quod, veritatis officia eveniet perspiciatis inventore sequi error dolorem quam quaerat ullam repudiandae nemo?
+Debitis placeat facilis laudantium quam incidunt tempora laborum tenetur consectetur? Molestiae, id fugiat. Quas cum nostrum quam rem, architecto provident doloremque repellat quod recusandae, earum nulla dignissimos ea molestias eveniet!
+Doloribus optio incidunt accusamus! Optio vero maxime esse ipsam quibusdam, nam doloribus? Pariatur ab placeat earum sit aperiam veritatis, commodi quae quia voluptatem qui dignissimos nesciunt quis nihil perspiciatis eaque!
+Quibusdam, magnam quisquam. Inventore hic quisquam eligendi maiores rerum, alias, accusantium eum nisi facere quasi unde fugit voluptatibus similique sunt vel. Fugit quis quo magni reiciendis quasi labore voluptatibus magnam.
+Doloremque vitae perferendis quod accusantium hic dolore eius labore in esse rerum, voluptates culpa nemo at iusto corporis. Sapiente ipsum unde quidem dolores? Voluptatibus aliquid quibusdam perspiciatis, cupiditate sit minus.
+Quo optio nulla eveniet distinctio mollitia, modi magnam iusto earum, quia labore eius fuga eaque ea! Labore repellat quas ratione, exercitationem officia, quasi maiores dolorum odio unde dolores tempore voluptas?
+Sapiente quae voluptatem ab nulla error nam culpa quaerat. Dicta, illo, laboriosam delectus corporis quasi molestiae ab minima consequuntur blanditiis, repellendus qui autem nesciunt dolore. Mollitia nulla sed maxime quo.
+Neque tempora nobis atque nesciunt inventore ullam doloremque nemo consequuntur ad culpa, adipisci dolor, sint quia laborum eligendi eveniet illo alias quas deleniti modi. Odio, impedit at!</p>
+    <div id="box1" style="background-color: red">box1</div>
+    <div id="box2" style="background-color: green">box2</div>
+    <div id="box3" >box3</div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nulla perspiciatis quam eaque alias dolores temporibus modi quisquam minus enim? Est voluptatibus itaque perspiciatis dolore consectetur ducimus qui mollitia eligendi!
+    Vitae quod illum possimus eaque officia, pariatur beatae earum, nulla sunt aspernatur numquam obcaecati nisi suscipit consequuntur architecto. Accusamus, necessitatibus repudiandae! Molestias et, debitis ipsam saepe rerum voluptatibus quod placeat.
+    Culpa est consequuntur voluptatum saepe iure delectus deserunt exercitationem natus, cupiditate, expedita accusantium maxime aut eius accusamus quam suscipit molestias! Maxime non hic quisquam perferendis, consequuntur nisi et aliquam velit?
+    Quod aliquid consectetur iste corrupti expedita provident, veniam, voluptates omnis sapiente id sed quisquam natus! Voluptates voluptas nesciunt ut perspiciatis sit maiores? Assumenda, odio repellendus adipisci repudiandae sunt iusto itaque.
+    Eum, minus amet! Obcaecati architecto maiores ullam molestias vero magnam voluptate enim aspernatur quia eveniet quasi, saepe rerum ex iure excepturi quaerat suscipit voluptates. Neque consequuntur velit dolore at eveniet!
+    Possimus qui vel alias fugiat cum quaerat blanditiis mollitia debitis quibusdam! Quisquam eos laudantium ipsum. Quis placeat id blanditiis, omnis ratione voluptate obcaecati tenetur et consectetur rerum quas illum necessitatibus.
+    Libero corrupti vel magni nam aut, minus exercitationem maiores, illo, architecto nemo inventore et praesentium delectus eaque distinctio neque nisi dolorem. Repellendus, quod vitae? Corrupti a quod magni assumenda accusantium!
+    Laborum, sequi. Laudantium, nisi atque maxime libero inventore hic corporis doloribus quas minus nihil vitae harum rerum. Doloribus sed assumenda repudiandae illum sapiente, tempora hic maiores, dignissimos quidem dolor omnis?
+</p>  -->
+
+ <!-- background image -->
+<!-- <h1>Positioned Playground</h1>
+    <div id="box1" style="background-color: red">box1</div>
+    <div id="box2" style="background-color: green">box2</div>
+    <div id="box3" >box3</div>
+    <div id="box4" style="background-color: blue">box4</div> -->
+<!-- backgroun size -->
+ <!-- background-size: cover / contain / auto -->
+  <!-- <h1>Positioned Playground</h1>
+    <div id="box1" style="background-color: red">box1</div>
+    <div id="box2" style="background-color: green">box2</div>
+    <div id="box3" >box3</div>
+    <div id="box4" style="background-color: blue">box4</div> -->
+
+
+<!-- flexbox -->
+<!-- flexible box layout : it is a one-dimensional layout method for arranging
+items in rows or columns. -->
+<!-- property
+1. flexbox dorection : it sets flex items are placed in the flex container, along
+which axis and dorection.
+* flex-direction: row;(default)
+* flex-direction: row-reverse;
+* flex-direction: column;
+* flex-direction: column-reverse;
+2. flex-container :
+* justify-content: alignment along the main axis.
+flex-start / flex-end / center / space-evenly.
+* flex-wrap: nowrap / wrap / wrap-reverse.
+* align-items: alignment along the cross axis.
+* align-content: alignment of space between & around the content 
+3. for flex item :
+* align-self: alignment of individual along the cross axis.
+* flex-grow : how much a flex item will grow relative to the rest of the flex
+item if space is available.
+* flex-shrink: how much a flex item will shrink relative to the rest of the itme 
+space is available.
+
+-->
+
+ <!-- <h1>Flexbox Playground</h1>
+<div id="container">
+<div id="box1">box1</div>
+<div id="box2">box2</div>
+<div id="box3">box3</div>
+<div id="box4">box4</div>
+<div id="box5">box5</div>
+</div> -->
+
+<!-- Grid CSS -->
+
+<!-- Display Grid is a layout in system in css which is used to create two dimensional 
+layout using rows and column.
+CSS grid is highly powerful two-dimentional layout system built directly into CSS.
+Unlike Flexbox , which primarily handles content in a single direction (either rows or columns).
+CSS grid lets you align and arrange elements in both horizontal rows and vertical columns
+ simultaneously.
+
+It works on a parent child relationship :-  
+It turn a parent element into a grid container , and its direct children automatically become grid items.
+
+1.  Display : grid :-
+It is a CSS rule that turns an HTML elements into a grid container , letting you arrange
+ its content into two .
+It gives you total control over web layouts by letting you work in two dimentions.
+Simultaneously : horizontally and vertically.
+ grid: Generates a block-level grid
+inline-grid: Generates an inline-level grid
+​
+2.  Grid-template-rows / Grid-template column :-
+This properties define the structure of the Grid which means how many rows and column should be created.
+And It is also used to specfies the sizes of the row and column should be created.
+​
+3.  Grid-rows-start / Grid-row-end :-
+This properties define where the Grid Items start and end vertically.
+
+4.  Grid-column-start / Grid-column-end :-
+This properties define where the Grid Items start and end Horizontally. -->
+
+
+
+<!-- Transition : transition enable you to define the transition between 
+ to steps of an elements. -->
+
+<!-- 1. trasition-property : property you wanr to transition (font-size, width etc..)
+2. transition-duration : 2s / 4ms...
+3. transition-timing-function : ease-in / ease-out / linear / steps.. 
+4. transition-delay : 2s / 4ms... 
+5. transition shorthand : property name / diuration / timing-function / delay. 
+ transition : font-size 2s ease-out 0.2s;
+ -->
+
+<!-- <div>This is a box</div> -->
+
+
+ <!-- Transform : used to aplly 2d & 3d Transformations to an element.
+ 1. rotate :
+transform : rotate(45deg);
+rotate: 45deg;
+rotateX: 45deg;
+rotateY: 45deg;
+rotateZ: 45deg;
+
+
+2. scale :
+transform: scale(2);
+transform: scale(0.5);
+transform: scale(1,2);
+transform: scaleX(0.5);
+transform: scaleY(0.5);
+ 
+
+3. translate :
+transform: translate(20px);
+transform: translate(20px,50px);
+transform: translateX(20px);
+transform: translateY(20px);
+
+
+4. skew : 
+transform : skew(30deg);
+ -->
+
+ <!-- <div>This is a box</div> -->
+
+
+ <!-- Animation : to animation CSS element.
+
+ @keyframe myName {
+    from{font-size: 20px;}
+    to {font-size: 40px;}
+ }
+  ------  
+ Animaton property :
+ animation-name
+ animation-duration
+ animation-timing-function
+ animation-delay
+ animation-iteration-count
+ animation-direction
+------
+ Animation shorthand :
+ animation : myName 2s liner 3s infinite normal.
+    
+ ------
+ % in Animation 
+ @keyframe myName {
+    0%{font-size: 20px;}
+    50% {font-size: 40px;}
+     100%{font-size: 60px;}
+ }
+ -->
+<!-- <div>This is box</div> -->
+
+
+<!-- Question solve  -->
+
+<!-- <div class="loader"></div> -->
+
+
+
+<!-- Media Queries 
+ - A media query is like an “IF statement” for your website’s design.
+ It tells the browser: “IF the screen is a certain size, THEN Change the way the website looks.
+It is the main tool developers use to make websites look good on Phones, tablets, and desktops
+ without making completely separate version of the side.
+
+⇒  min-width  and  max-width :-
+min-width means “ this size or larger” (greater than or equal to)  and max-width means “ up to
+ this size “ (less than or equal to).
+
+⇒  min-height and  max-height:-
+min-height and max-height in CSS media Query look at the vertical height of the browser window
+ and decide when the apply your styles based on that size. -->
+ 
+<!-- 
+media queries : help create a responsive website.
+
+@media (width: 600px) {
+div {
+back=ground-color : red;
+  }
+}
+  
+@media(min-width : 600px){
+div{
+background-color: blue;
+ }
+} -->
+ 
+<!-- <div></div> -->
+
+
+
+    </body>
+</html>
