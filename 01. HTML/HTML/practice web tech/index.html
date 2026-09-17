@@ -1,0 +1,799 @@
+Web technology :> Tools, technology, services, programing language,
+which is used to design or create a webpages is known as web 
+technologies.
+<br>
+Websites :> collection of miltiple webpages under a single domain 
+known as a website.
+<br>
+Types of Website :>
+<br>
+Static :> Those website whose content will be same for all
+the users, is known as static website.
+<br>
+ex : portfolio website, landing page etc...
+<br>
+Dynamic :> Those website whose content change with respect 
+to user, is known as dynamic website.
+<br>
+ex : instagram, facebook, youtube etc....
+<br>
+Webpages :> single html document is known as webpages.
+<br>
+Browser :> It is a software or tool through which we can access 
+the websites.
+<br>
+Web/WWW :> collection of websites.
+<br>
+          3 Tiers of architecture / full stack architecture
+
+Frontent               Backend                Database
+
+html               java + spring + python      sql      mysql oracle
+css                + dyjango + nodejs +
+javascript        expressjs                       no-sql     mongoDB
+
+react.js ,          c,c++,php,ruby,perl etc...
+Vue.js
+
+single page application
+<br>
+XML :> Xtensible markup language. It is used to store and transport
+the tag. It stores the data of inside tags. In XML tag can be user
+defined as well as pre-defined (polog).  >>   (filename.xml).
+<br>
+What is HTML ?
+* Hyper text makeup language.
+* It is used for creating structure in our websites.
+* It is used for adding content in our websites.
+* It is developed by Tim Berners Lie.
+<br>
+Different version of HTML :>       
+ HTML1 --> 1991 / 1993 
+ HTML2 --> 1995        
+ HTML3 --> 1997         
+ HTML4 --> 1999          
+ HTML5 --> 2014           
+<br>
+ Hyper Text :> A text which contain a link is called hyper text.
+Hyper Link : A link which re-direct from one link to another link is called
+hyperlink.
+<br>
+Markup Language :> A language in which we uses tags.
+<br>
+Tags :>
+Keywords wrapped between angular brackets.
+<br>
+Types of tags :> 1. Paired Tag
+                 2. Unpaired Tag
+                 <br>
+(i) Paired Tag :> Those tag which is having opening tag and closing tag 
+is called Paired Tag.
+ <br>
+ex:- h1, p, h2, h4, table, form etc....
+  <br>
+(ii) Unpaired Tag :> Those tag which is having only opening tag is called 
+Unpaired Tag.
+<br>
+ex:- br, hr, input etc....   
+<br>  
+
+Attributes :> 
+* It provided extra information about the tags.
+* It is used in the form of key amd value pairs, which is written
+ inside opening tag.
+<br>
+There are two types of attributes :><br>
+1. Global Attributes :> Those attributes which can be used with 
+all the html tags , or whose effect can be applicable for the
+ complete html, is known as Global Attribute.<br>
+ex : lang, id ,class, style, etc...<br>
+2. Local/Element specific Attriputes :> Those attributes which 
+is used only for a particular element,
+ it is known as local or element Specific Attribute.<br>
+ex : src, href, alt, cells, etc...<br>
+
+Link :><br>
+A link (hyperlink) is a clickable text or image that is used 
+to navigate from one webpage 
+or location to another.<br>
+
+Link States :>
+<br>
+Unvisited Link :>
+A link to a webpage you have never clicked yet. Browsers 
+typically display this as blue and underlined.
+<br>
+Visited Link :>
+A link to a webpage you have already clicked in the past. 
+Browsers typically display this as purple and underlined.
+<br>
+Active Link :>
+Browsers display active link as red and underlined.
+
+<br>
+
+
+
+<!DOCTYPE html>   <!-- Define the document type and tells the browser that this is an HTML5 document. -->
+<html lang="en">   <!--The root element of the webpage. All HTML code is written inside the tag. -->
+<head>             <!-- Contains metadata such as -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>          <!-- Displays the webpage title on the browser -->
+    
+</head>
+<body>                             <!-- Contains all visible webpage content -->
+
+     <!-- This a Heading Tag -->
+      <!-- 1. Heading Tag (<h1> to <h6>).
+         A heading tag is used to create titles and headings
+         on a web page.There are six levels, where <h1> is the largest and most important, and
+        <h6> is the smallest. -->
+
+    <h1>Hading Tag 1</h1>     2em
+    <h2>Heading Tag 2</h2>   1.5em        
+    <h3>Heading Tag 3</h3>    1.17em
+    <h4>Heading Tag 4</h4>     1em
+    <h5>Heading Tag 5</h5>    0.8em
+    <h6>Heading Tag 6</h6>     0.67em
+
+    
+      <!-- This is a Paragraph Tag -->
+       <!-- 2. Paragraph Tag (<p>)
+        A paragraph tag is used to display a block of text as a paragraph on a web page. -->
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nesciunt reprehenderit aliquam culpa 
+     consequatur deleniti facilis ducimus excepturi eveniet vel fugit voluptatibus, molestias,
+     mollitia eos error, sit animi. Obcaecati, in.</p>
+    <p>This is a paragraph tag 1</p>
+    <p>This is a paragraph tag 2</p>          
+    <p>This is a paragraph tag 3</p>
+
+
+     <!--This is a Link Tag -->
+     <!-- 3. Link Tag (<a>)
+    A link tag (anchor tag) is used to create hyperlinks that allow users to navigate to another
+     webpage, website, or file. -->
+
+   <a href="https://www.google.com/">Google</a> 
+   <br>
+   <a href="https://www.Flipkart.com/">Flipkart</a>   
+   <br>
+   <a href="https://www.Amazon.com/">Amazon</a> 
+   <br><br>
+
+ 
+     <!-- This is a Image Tag -->
+      <!-- The <img> tag is used to display an image on a web page. 
+       It is an empty (self-closing) tag, meaning it does not have a closing </img> tag. -->
+
+    <img src="https://tse1.mm.bing.net/th/id/OIP.kJMH1D5dbu8LH7e6-PLHLwHaEc?pid=Api&P=0&h=180" 
+    alt="html_Image" height="100" width="100">    <!-- This is a Image Tag --> 
+    <img src="path" alt="image ka description text" height="" width="">
+
+<!-- 
+src (source) : It contains path of the image (url).
+alt (alternate) : If the image is not able to display properly then, instead of image,
+                    this alternate text will be displayed on the UI. -->
+
+    <img src="./heroSectionBGImage (2).jpg (2).jpeg" height="600" width="600">
+<br>
+<br>
+
+
+     <!--This is a Formating Tag -->
+     <!-- Formatting tags are HTML tags used to change the appearance or emphasize text on a webpage.
+       They help make content bold, italic, highlighted, underlined, or otherwise more meaningful. -->
+
+     <b>Bold</b>
+     <strong>Strong</strong>
+     <i>Italic</i>
+     <strike>strick</strike>
+     <em>Emphasized</em>
+     <u>Underline</u>
+     <mark>Highlighted</mark>
+     <small>Small Text</small>
+     <del>Deleted</del>
+     <ins>Inserted</ins>
+     2<sup>10</sup>
+     log<sub>10</sub>
+
+    <!-- Pre Tag -->
+     <!-- The <pre> (Preformatted Text) tag in HTML is used to display text exactly as it is written
+         in the HTML code, including spaces, tabs, and line breaks. -->
+
+    <pre>
+        function abc() {
+            console.log("abc");
+        }
+    </pre>
+
+
+    <!-- Semantic Tags -->
+     <!-- Those tags, which provides to the developer and the about their 
+      content it is known as semantic tag. -->
+
+    <div class="container">
+      <header>Header</header>
+        <nav>Navbar</nav>
+        <aside>Aside</aside>
+        <article>Article</article>
+        <main>Main</main>
+        <footer>Footer</footer>
+        <section>Section</section>
+    </div>
+
+
+    <!-- div tag -->
+    <!-- The <div> (Division) tag is a block-level container used to group HTML
+       elements together. It has no visual effect by itself but is mainly used for layout,
+        styling (CSS), and JavaScript. (block element) -->
+
+<div class="box">
+    <h2>Welcome</h2>
+    <p>This content is inside a div tag.</p>
+</div>
+
+<!-- span tag -->
+<!-- The <span> tag is an inline container used to style or manipulate a small part 
+  of text or other inline elements. 
+  It does not start on a new line. (inline element) -->
+<p>
+    My name is <span class="red">Tarun Panchal</span>.
+</p>
+<br>
+
+
+    <!---Anchor Tag -->
+    <!-- The Anchor (<a>) tag in HTML is used to create hyperlinks that connect one web page to another page,
+         website, file, email address, or a specific section of the same page. -->
+
+    <a href="./home.html">Home Page</a>
+    <br>
+    <a href="./contact.html">Contact</a>
+    <br>
+    <a href="./about.html">About</a>
+    <br>
+    <a href="mailto./tarunpanchal047@gmail.com./">Email</a>
+    <br>
+    <a href="./DBMS (1) (1).pdf" download > Download</a> 
+<br>
+
+
+    <!-- Iframe Tag -->
+     <!-- The <iframe> (Inline Frame) tag in HTML is used to embed another web page or external content 
+        inside the current web page.
+        It is used for embeding pdf webpage, websites, videos, map, qr, etc.
+         -->
+
+    <iframe src="./home.html" frameborder="1"></iframe>
+      <iframe src="./about.html" frameborder="1"></iframe> 
+      <iframe src="./contact.html" frameborder="1"></iframe> 
+      <iframe src="./DBMS (1) (1).pdf" download frameboorder="1"></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4?si=uBDMHo1d9PqZ1
+      KVS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+       gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen></iframe>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.2497890679147!2d77.05013177532943!3d28.47202317575284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19ec2506168d%3A0x338e38e8045488e!2sQSpiders%20Jspiders%20Gurugram!5e0!3m2!1sen!2sin!4v1781074163932!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+     <iframe src="./ifram.html" frameborder="1" height="600" width="600"></iframe>
+     <br>
+    <iframe src="./ifram.html" frameborder="1"></iframe>
+
+
+
+    <!-- List -->
+     <!-- A list is a collection of related item display in a structure format Html provide
+       order <ol> or unorder <ul> and description <dl> lists. -->
+
+      <!-- Order List -->
+       <!-- An ordered list in HTML is used to display items in a numbered or sequential order.
+         It is created using the <ol> tag, and each list item is placed inside an <li> tag -->
+       <ol type="" start="" reversed>
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+        <li>List 4</li>
+       </ol>
+
+       <!--Unorder List-->
+       <!-- An unordered list in HTML is used to display items with bullets instead of numbers.
+         It is created using the <ul> tag, and each list item is placed inside an <li> tag. -->
+       <ul type="circle">
+        <li>List 1</li>
+        <li>List 2</li>
+        <li>List 3</li>
+        <li>List 4</li>
+       </ul>
+
+       <!-- Descriptive List -->
+        <!-- A descriptive list in HTML is used to display terms and their descriptive. 
+         It is created using the <dl> tag, with <dt> for the term and <dd> for its descriptive. -->
+        <dl>
+            <dt>HTML</dt>
+            <dd>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est esse dicta nostrum eligendi similique. </dd>
+            <dt>CSS</dt>
+            <dd>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, maxime corporis libero earum suscipit magni.</dd>
+            <dt>JavaScript</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, non.</dd>
+        </dl>
+
+        <!-- Nested List -->
+         <!-- A nested list in HTML is a list inside another list. It is used to create 
+          sub-items or categories within a main list. -->
+         <ol>
+            <li>OrderList 1</li>
+            <li>OrderList 2</li>
+            <li>OrderList 3</li>
+            <ul>
+                <li>UnorderList 1</li>
+                <li>UnorderList 2</li>
+                <li>UnorderList 3</li>
+            </ul>
+         </ol>
+
+
+
+         <!-- Table Tag -->
+          <!-- The <table> tag in HTML is used to create a table for displaying data in rows and columns.
+             It is useful for showing structured information such as student records, employee details,
+              marksheets, product lists, and timetables. -->
+
+
+              <table>
+                <!-- <table> Tag Definition:
+                  The <table> tag is the main container used to create a table.
+                       Example : <table>
+                                ...   </table>-->
+
+                <tr>
+                  <!--  <tr> Tag (Table Row) -->
+                  <th>Heading 1</th>
+
+                  <!--- <th> Tag (Table Heading) -->
+                  <th>heading 2</th>
+                </tr>
+                
+                <tr> 
+                  <td>Tarun</td>
+                  <!-- <td> Tag (Table Data) -->
+                  <td>BCA</td>
+                </tr>
+              </table>
+<br>
+              <table border="1">
+                <tr>
+                  <th>Name</th>
+                  <th>Age</th>
+                  <th>Country</th>
+                </tr>
+                <tr>
+                  <td>Harry</td>
+                  <td>28</td>
+                  <td>Britain</td>
+                </tr>
+                <tr>
+                  <td>John</td>
+                  <td>25</td>
+                  <td>USA</td>
+                </tr>
+                <tr>
+                  <td>Ashish</td>
+                  <td>34</td>
+                  <td>India</td>
+                </tr>
+              </table>
+
+
+<br>
+
+                <table border="1">
+                  <tr>
+                    <td>Column 1</td>
+                    <td>Column 2</td>
+                    <td>Column 3</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">Row 1 Cell 1</td>
+                    <td>Row 1 Cell 2</td>
+                    <td>Row 1 Cell 3</td>
+                  </tr>
+                  <tr>
+                    <td>Row 2 Cell 2</td>
+                    <td>Row 2 Cell 3</td>
+                  </tr>
+                  <tr>
+                   <td colspan="3">Row 3 Cell 1</td>
+                  </tr>
+                </table>
+
+<br>
+              <table border="1" cellspacing="10" cellPadding="5" style="border-collapse: collapse;" >
+                <tr>
+                  <th>Name </th>
+                  <th>Age</th>
+                  <th>Class</th>
+                </tr>
+
+                <tr>
+                  <td>Tarun</td>
+                  <td>21</td>
+                  <td>BCA</td>
+                </tr>
+              </table>
+    <br>
+              <table border="1" cellspacing="20" cellpadding="15" style="border-collapse:collapse;">
+        <tr>
+            <td>level 1</td>
+              <td>level 2</td>
+                <td>level 3</td>
+                  <td>Info</td>
+                    <td>Name</td>
+                    
+                </tr>
+                <tr>
+                    <td rowspan="6">System</td>
+                   
+                    <td rowspan="3">System-App</td>
+                    <td rowspan="1">app </td>
+                    <td rowspan="2">System Memory</td>
+                    <td>dis</td>
+                </tr>
+                <tr>
+                    
+                    <td rowspan="1"> app info</td>
+                    <td>dis</td>
+                    </tr>
+                <tr>
+                    <td  rowspan="1">System-Env</td>
+                    <td>info</td>
+                    <td>app</td>
+                </tr>
+                <td>System-Env</td>
+                <td>test</td>
+                <td>bar</td>
+                <td>app</td>
+               </table>
+
+
+<br>
+  <table border="1" cellspacing="20" cellpadding="15" style="border-collapse:collapse;"> 
+        <tr>
+            <td colspan="4" align="center">New Employees Record</td>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <th>Jobs</th>
+           <th>Working Experience</th>
+           </tr>
+           <tr>
+            <td>Jhon</td>
+            <td>Software Engineer</td>
+            <td>Data Analyst</td>
+            <td colspan="2" rowspan="2">5 Years</td>
+           </tr>
+           <tr>
+            <td>Rohit</td>
+            <td colspan="2">Senior software engineer</td>
+            </tr>
+           <tr>
+            <td>Jack</td>
+            <td>Junior Tech Writer</td>
+            <td>Blogger</td>
+            <td>6 Months</td>
+           </tr>
+    </table>
+    <br>
+
+    <table border="1">
+      <tr>
+        <th>Device</th>
+        <th>Brand</th>
+        <th colspan="2">Specification</th>
+      </tr>
+      <tr>
+        <td rowspan="3">Smartphone</td>
+        <td rowspan="3">Apple</td>
+        <th>Model</th>
+        <th>Storage</th>
+      </tr>
+      <tr>
+        <td>iPhone 12 Pro</td>
+        <td>256 GB</td>
+      </tr>
+      <tr>
+        <td>iPhone SE</td>
+        <td>128 GB</td>
+      </tr>
+      <tr>
+        <td>Laptop</td>
+        <td>HP</td>
+        <td colspan="2">15.6" Display</td>
+      </tr>
+      <tr>
+        <td>Tablet</td>
+        <td>Samsung</td>
+        <td>10.5" Display</td>
+      </tr>
+    </table>
+
+
+<br>
+
+
+ <table border="1">
+<thead>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+    </tr>
+</thead>
+
+<tbody>
+    <tr>
+        <td>Tarun</td>
+        <td>22</td>
+    </tr>
+</tbody>
+
+<tfoot>
+    <tr>
+        <td colspan="2">End of Table</td>
+    </tr>
+</tfoot>
+
+</table> 
+<br>
+
+
+
+<!-- Form Tag -->
+<!-- The <form> tag in HTML is used to create a form that collects user input. A form allows
+   users to enter information such as their name, email, password, phone number, address,
+    etc., and submit it to a server for processing. -->
+<form>
+
+    Name:
+    <input type="text"><br><br>
+
+    <!-- The <input> tag in HTML is used to create input fields where users can enter data.
+      It is one of the most important form elements and is used inside the <form> tag. -->
+        
+    Email:
+    <input type="email"><br><br>
+
+    Password:
+    <input type="password"><br><br>
+
+    <input type="submit" value="Submit">
+
+    <br><br>
+
+    <form action="http://httpbin.org/post" method="post" onsubmit="alert('form Submitted...')">
+      <label for="username">Enter Username</label> &nbsp; &nbsp; &nbsp; &nbsp;
+      <input type="text" id="Username" placeholder="Enter Username..."
+      required name="username">
+      <br><br>
+      <label for="email">Email</label>
+      <input type="text" id="Email" name="email" value="tarunpanchal@047gmail.com" readonly>
+      <br><br>
+      <label for="pass">Enter Password</label>
+      <input type="password" id="pass" placeholder="Enter Password" minlength="3" maxlength="8">
+      <br><br>
+      <button type="submit">Submit</button>
+      <button type="reset">Clear</button>
+       <br>
+      <label for="Country">Choose Country</label>
+      <select id="country" name="country">
+        <option disabled selected >Selected Country</option>
+         <option value="In">India</option> 
+          <option>Pak</option>
+          <option>China</option>
+
+             
+      </select>
+
+      <fieldset>
+        <legend>Skills</legend>
+        <input type="checkbox" name="skills" id="html" value="HTML">
+        <label for="html">HTML</label>
+        <br>
+        <input type="checkbox" name="skills" id="css">
+        <label for="css">CSS</label>
+        <br>
+        <input type="checkbox" name="skills" id="js">
+        <label for="js">JavaScript</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Gender</legend>
+        <input type="radio" name="gender" id="male" value="Male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" name="gender" id="female" value="Female">
+        <label for="female">FeMale</label>
+        <br>
+        <input type="radio" name="gender" id="other" value="Other">
+        <label for="other">Other</label>
+
+      </fieldset>
+
+    
+    
+     
+
+
+      <fieldset>
+        <legend align="center">Type of Buttons</legend>
+          <button type="submit">Submit</button>
+       <button type="reset">Clear</button>
+        <br>
+        <input type="submit" value="Submit Button">
+        <input type="reset" value="Reset Button">
+      </fieldset>
+
+      <form>
+        <fieldset>
+        <legend>Novell Service Login</legend>
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="enter the name">
+        <br>
+        <label for="password">Password</label>
+        <input type="text" id="password" placeholder="enter the password">
+        <br>
+        <label for="city of">City Of</label>
+        <input type="text" id="city of" placeholder="name city">
+        <br>
+        <label for="employment">Employement</label>
+        <input type="text" id="employment" >
+        <br>
+        <label for="web server">Web server</label>
+        <input type="text" id="web server" placeholder="--choose a server--">
+        <br>
+        <br>
+        <legend>Please specify your role</legend>
+          <input type="radio" id="admin">
+        <label for="admin">Admin</label>
+        <br>
+        <input type="radio" id="engineer">
+        <label for="engineer">Engineer</label>
+        <br>
+         <input type="radio" id="manager">
+        <label for="manager">Manager</label>
+        <br>
+         <input type="radio" id="guest">
+        <label for="guest">Guest</label>
+        <br>
+        <br>
+         <legend>Your role</legend>
+          <input type="checkbox" id="admin">
+        <label for="admin">Admin</label>
+        <br>
+        <input type="checkbox" id="engineer">
+        <label for="engineer">Engineer</label>
+        <br>
+         <input type="checkbox" id="manager">
+        <label for="manager">Manager</label>
+        <br>
+         <input type="checkbox" id="guest">
+        <label for="guest">Guest</label>
+        <br>
+        <br>
+        </fieldset>
+      </form>
+
+<form>
+        <fieldset>
+        <legend>User personal information</legend>
+  <label for="name">Enter your full name</label><br>
+   <input type="text" id="name" placeholder="">
+   <br>
+   <label for="email">Enter your Email</label><br>
+   <input type="text" id="email" placeholder="">
+   <br>
+   <label for="password">Enter your Password</label><br>
+   <input type="text" id="password" placeholder="">
+   <br>
+   <label for="pass">Confirm your Password</label><br>
+   <input type="text" id="pass" placeholder="">
+   <br>
+   <label for="gender">Enter your gender</label><br>
+   <input type="radio" id="gender" placeholder="Male">
+   <label for="gender">Male</label>
+   <input type="radio" id="gender" placeholder="FeMale">
+   <label for="gender">FeMale</label>
+   <input type="radio" id="gender" placeholder="Other">
+   <label for="Other">Other</label>
+   <br>
+</form>
+
+<fieldset>
+
+    <center>
+      <h1>
+        <font-color="darkred">Admision Application Form</font-color>
+       
+      </h1>
+      </center>
+      <form onsubmit="alert('Form Submitted...')"></form>
+      <fieldset>
+           <legend align="left">Personal Details</legend>
+           <label for="full name">Full Name *</label>
+           <br>
+           <input type="text" id="Username" placeholder="Enter Your Full Name...">
+            <br>
+            <label for="email address">Email Address *</label>
+            <br>
+            <input type="text" id="Username" placeholder="example@gmail.com...">
+            <br>
+             <label for="phone number">Phone Number *</label>
+             <br>
+             <input type="text" id="phone number" placeholder="10-digit-number...">
+             <br>
+             <label for="date of birth">Date of Birth *</label>
+             <br>
+             <input type="text" id="date of birth" placeholder="dd-mm-yyyy...">
+             <br>
+             <label for="permanent address">Permanent Address *</label>
+             <br>
+              <input type="text" id="permanent address" placeholder="Enter Your Complete Address ...">
+              </form>
+    </fieldset>
+ 
+
+
+<body bgcolor="#F8F9FA">
+
+    <center>
+        <h1><font color="darkred">Admission Application Form</font></h1>
+    </center>
+
+    <form>
+
+        <fieldset>
+            <legend><font color="red"><b>Personal Details</b></font></legend>
+
+            <label><font color="blue">Full Name *</font></label><br>
+            <input type="text" placeholder="Enter your full name"><br><br>
+
+            <label><font color="blue">Email Address *</font></label><br>
+            <input type="email" placeholder="example@gmail.com"><br><br>
+
+            <label><font color="blue">Phone Number *</font></label><br>
+            <input type="tel" placeholder="10-digit number"><br><br>
+
+            <label><font color="blue">Date of Birth *</font></label><br>
+            <input type="date"><br><br>
+
+            <label><font color="blue">Permanent Address *</font></label><br>
+            <textarea rows="4" cols="40"></textarea>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><font color="red"><b>Academic Details</b></font></legend>
+
+            <label><font color="blue">Highest Qualification *</font></label><br>
+
+            <select>
+                <option>-- Select Qualification --</option>
+                <option>10th</option>
+                <option>12th</option>
+                <option>Diploma</option>
+                <option>Graduation</option>
+            </select>
+
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+      </form>
+
+</body>
+</html>
