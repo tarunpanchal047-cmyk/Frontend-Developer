@@ -1,4 +1,4 @@
-//! What is State in REact ?
+//! What is State in React ?
 //----------------------------------
 //^ State is a built-in React feature used to store and manage data that can change during a component's lifecycle.
 //^  When state changes, React re-renders the component.
