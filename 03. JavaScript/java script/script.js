@@ -609,6 +609,7 @@
 
 
 
+
 // !  8. Higher order function  : A function which accepts another function as a argument. It is known as higher order function.
 // !  9. Call back function : A function which is passed as the argument it is known as callback function.
 // function HOF(a,b,callback){
@@ -618,7 +619,10 @@
 //     console.log(a+b+c);
 // })
 
-
+function abc(){
+    return console.log("Tarun")
+}
+abc()
 
 // !  10. Recursive function : Function which calls itself, is valid recursive function.
 //  * 5 = 5 * 4 * 3 * 2 * 1 = 120

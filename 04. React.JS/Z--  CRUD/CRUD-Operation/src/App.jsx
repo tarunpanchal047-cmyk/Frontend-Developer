@@ -15,10 +15,7 @@
    ○ Path: It contains the URL of the page where you to visit 
    ○ Element : It displays the content based on URL. 
     ● Syntax:  <Route path=”Path” element=”<ComponentName>”> 
-    ● Basically, we inform the browser if this is the path address then render this element(component).   */}
-
-
-
+    ● Basically, we inform the browser if this is the path address then render this element(component).   */
 
 import {BrowserRouter,Route,Routes} from 'react-router-dom'
 import Home from "./Home"
