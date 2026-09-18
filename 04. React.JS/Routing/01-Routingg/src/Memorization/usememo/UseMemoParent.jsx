@@ -1,6 +1,9 @@
-
-        //! 3. UseCallback
-        //     - it is a react hook that memoizes a function ensuring the same function reference is used until its dependency changes
+//! 2. UseMemo :
+//^ - It is a react hook that memoizes the result of a computation, so it is not recalculated on every render.
+        
+        
+//! 3. UseCallback
+//^ - it is a react hook that memoizes a function ensuring the same function reference is used until its dependency changes
 
 
 

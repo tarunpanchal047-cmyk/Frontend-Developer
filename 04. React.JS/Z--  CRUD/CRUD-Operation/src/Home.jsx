@@ -1,3 +1,9 @@
+//! Link :
+//  ● It is equivalent to an anchor tag. 
+// ● At the end of the day, Link will be displayed as an anchor tag in the html document. 
+// ● But it will not navigate, it will just change the path address.  
+// ● to=” ” attribute equivalent to href attribute in html. Here we have to mention the path of the URL. 
+
 
 import axios from "axios";
 import  { useEffect, useState } from "react";

@@ -1,5 +1,7 @@
-//^ Routing in react is the process of showing different components on different url. without reloading the page 
-//! advantages of routing --------------
+//! Routing :
+//^  ● Routing is a process of navigating between the components through URL and without having a full page reload. 
+// ● It is used to create Single Page Applications  . 
+// //! advantages of routing --------------
 // - no page reload 
 // - faster navigation
 // - single page application support 

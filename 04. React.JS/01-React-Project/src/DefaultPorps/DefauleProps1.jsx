@@ -5,6 +5,11 @@
 //^      still works properly even if no value are passed.
 
 
+//! What is Optional Chaining (?.)?
+// ----------------------------------------
+//^  Optional chaining safely checks whether something exists before using it. 
+//^  If it doesn’t exist, it returns undefined instead of throwing an error. 
+
 const DefaultProps1 = ({abc = "Guest"}) =>{
     return (
         <div>

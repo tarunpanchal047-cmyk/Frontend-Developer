@@ -6,6 +6,16 @@
 
 
 
+//! UnControlled Forms :
+// ● It is a form where it is created using a reference concept.  
+// ● In FBC, we use ‘useRef’ to create uncontrolled forms.  
+// ● These forms are completely handled by DOM itself. 
+// ● Suppose if we want to take any data from a user, first the data will be taken by DOM directly and then we will be 
+// talking the data from DOM. 
+
+
+
+
 //! useRef : -----------
 // -------------------
 //^ useRef is a react hook which persists value or it is used to access DOM Elements without causing a component re-rendering.

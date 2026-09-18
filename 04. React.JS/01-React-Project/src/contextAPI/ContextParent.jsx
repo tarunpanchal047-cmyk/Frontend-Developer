@@ -1,5 +1,7 @@
 //! Context API : ----------
 // -------------------
+//^Props drilling is a process of sending the data from one component to another component to another
+//^  component and so on. 
 //^ we can not share the data directly to pass the data directly to middle component we have used content API. 
 //! Steps to create the context API 
 //? 1. Create Context

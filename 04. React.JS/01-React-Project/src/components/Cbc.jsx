@@ -1,3 +1,22 @@
+//! Components in React : 
+// -----------------------------
+//^ ● Components are logical blocks of code used to create React applications. 
+//^ ● A component is simply a block of code that we export and import to achieve reusability. 
+//^ ● A web page is divided into multiple components (files) and then combined together inside a parent component (App.jsx). 
+//^ ● Components are reusable , its a building block. 
+
+//! Rules for Components :
+// -----------------------------
+//^ ● Component names must start with a capital letter. 
+//^ ● Component files should be saved with .jsx extension (recommended). Example: App.jsx 
+
+//! 1. Class-based Components (Stateful Components) :
+// -----------------------------
+//^  Class-based components are created using the class keyword in JavaScript 
+//^  ● They have an inbuilt state object to store and manage data. 
+//^  ● They can use lifecycle methods (like componentDidMount(), componentDidUpdate() etc.). 
+//^  ● They are also known as stateful component . 
+
 import React, {Components} from 'react'
 
 
