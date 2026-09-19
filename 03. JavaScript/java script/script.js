@@ -866,7 +866,6 @@ abc()
 
 
 
-
 // let str = " Akshit is a good boy. Akshit is in 4th year";
 // ! replace() : It replaces the first matching substring in the string.
 // console.log(str.replace("Akshit","Aman"));
@@ -1231,8 +1230,6 @@ abc()
 // "uuse strict"
 // b = 200;
 // console.log(b)
-
-
 
 
 
