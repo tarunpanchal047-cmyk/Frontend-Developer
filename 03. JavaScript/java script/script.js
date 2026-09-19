@@ -1200,6 +1200,8 @@ abc()
 // ! Constructor's way :
 // let obj = new Object({id : 1, objName : "tarun"});
 // console.log(obj);
+let obj = new Object({id : 1, objName : "tarun"});
+console.log(obj);
 
 // ! Constructor function :
 
