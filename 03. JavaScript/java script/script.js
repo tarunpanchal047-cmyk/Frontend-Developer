@@ -1330,14 +1330,14 @@ abc()
 
 
 
-                                 let obj = {
-                                           Id : 1,
-                                     ObjName  : " Tarun Panchal ",
-                                  Designation : " ------------------- "
-                                    }
-                                  console.log(obj.Id);
-                                  console.log(obj.ObjName);
-                                  console.log(obj.Designation);
+                                //  let obj = {
+                                //            Id : 1,
+                                //      ObjName  : " Tarun Panchal ",
+                                //   Designation : " ------------------- "
+                                //     }
+                                //   console.log(obj.Id);
+                                //   console.log(obj.ObjName);
+                                //   console.log(obj.Designation);
 
 
 

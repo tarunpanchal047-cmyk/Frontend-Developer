@@ -1,7 +1,7 @@
 
 //! What is React JS ?
 
-// It is a library of javaScript which is maintain by meta and group of individual developer.
+// It is the javaScript of library in which is maintain by meta and group of individual developer.
 //  It is developed by Jordan walke . A software engineer in Facebook.
 //  React was deployed on facebook newsfeed In 2011. And later on Instagram in 2012.
 //  Angular Vue javaScript backbone js etc are the other library which is used for creating single page application. Among this library react is very popular and lightweight as compare to other library.
@@ -10,7 +10,7 @@
 //  NodeJS is the runtime environment which is used for executing js file outside the browser.
 //  When we install react or any other library we have to used npm and npx .
 //  npm and npx it comes by default with the nodeJs.
-
+ 
 //! What is a library ?
 
 //  A library is a collection of pre-written code that you can use to solve common problems,
