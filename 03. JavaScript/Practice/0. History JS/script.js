@@ -41,6 +41,8 @@
                     //~ It means a semicolon is not mandatory at the end of every line, but if you are writing multiple statements on the same line, then you have to put a semicolon.
 //-----------------------------------
 
+
+
     //console.log("hello js");
     // console.log("helo");
     //console.log(window);
