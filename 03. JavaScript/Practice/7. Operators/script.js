@@ -104,7 +104,7 @@
 
 
 //
-! Ternary operator : 
+// ! Ternary operator : 
 //^    A short form of the if...else statement.
     
 //     let res = ("condition")? "true" : "false"
