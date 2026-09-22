@@ -1276,8 +1276,6 @@ abc()
 // console.log(Object.fromEntries([["id",1],["objName","qwert"]]));
 
 
-
-
 // ! Object.freeze() : Prevents the modification of existing property the addition of new properties, prevents the
 // ! delection of existing properties.
 
