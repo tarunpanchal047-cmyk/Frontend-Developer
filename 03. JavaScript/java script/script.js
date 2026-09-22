@@ -1228,7 +1228,7 @@ abc()
 // abc()                        // undefined
 
 
-// "uuse strict"
+// "use strict"
 // b = 200;
 // console.log(b)
 
