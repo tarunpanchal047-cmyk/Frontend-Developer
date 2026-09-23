@@ -1,10 +1,15 @@
 
 //! What is React JS ?
 
-// It is the javaScript of library in which is maintain by meta and group of individual developer.
+//^  React is a JavaScript library developed by Facebook. It was created by Jordan Walke and open-sourced in 2013.
+//^  React is used to build interactive user interfaces and single-page applications. It uses reusable components to make development easier.
+//^  Node.js is commonly used for React development, while npm is used to install packages and npx is used to run packages.
+
+//  It is the javaScript of library in which is maintain by meta and group of individual developer.
 //  It is developed by Jordan walke . A software engineer in Facebook.
 //  React was deployed on facebook newsfeed In 2011. And later on Instagram in 2012.
-//  Angular Vue javaScript backbone js etc are the other library which is used for creating single page application. Among this library react is very popular and lightweight as compare to other library.
+//  Angular Vue javaScript backbone js etc are the other library which is used for creating single page application. 
+//  Among this library react is very popular and lightweight as compare to other library.
 //  It is create by Facebook for their internal application later they made at open source.
 //  To install the react file or folder : We have to use NodeJS
 //  NodeJS is the runtime environment which is used for executing js file outside the browser.
