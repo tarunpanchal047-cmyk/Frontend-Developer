@@ -90,8 +90,8 @@
 
 //! setInterval :
 //^ it accepts two arrgument first argument is the callback function second argument is the time
-// in millisecond. It executes the callback function after every span of time.
-// To stop the setInterval, we uses clearInterval, which accepts the reference of the setInterval
+//^ in millisecond. It executes the callback function after every span of time.
+//^ To stop the setInterval, we uses clearInterval, which accepts the reference of the setInterval
 
 
 // let i = 0

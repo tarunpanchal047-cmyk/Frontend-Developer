@@ -265,7 +265,33 @@
 
 
 
+//! Common Object Interview Questions
 
+// What is an object in JavaScript?
+// How do you create an object?
+// How do you access object properties?
+// Dot notation vs bracket notation?
+// How do you add a property?
+// How do you update a property?
+// How do you delete a property?
+// How do you check whether a property exists?
+// How do you get all object keys?
+// How do you get all object values?
+// How do you get key-value pairs?
+// How do you loop through an object?
+// What is a nested object?
+// What is an array of objects?
+// How do you shallow and deep copy an object?
+// What is the rest and spread operator with objects?
+// What is object destructuring?
+// What is Object.keys()?
+// What is Object.values()?
+// What is Object.entries()?
+// What is the difference between shallow copy and deep copy?
+// How do you merge two objects?
+// How do you find duplicate values in objects?
+// How do you sort an array of objects?
+// How do you find an object by ID?
 
 
 

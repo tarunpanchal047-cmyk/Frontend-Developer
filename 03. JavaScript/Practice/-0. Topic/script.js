@@ -545,12 +545,11 @@
 // this
 // Call/Apply/Bind
 // Prototype
-// Event Bubbling
+// Event Bubbling & Event Capturing
 // Event Delegation
 // Debouncing
 // Throttling
 // Map vs Filter vs Reduce
 // forEach() vs map()
 // slice() vs splice()
-// null vs undefined
 // Synchronous vs Asynchronous

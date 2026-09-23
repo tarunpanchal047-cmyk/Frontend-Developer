@@ -419,6 +419,41 @@
 
 
 
+//! Common Function Interview Questions
+
+// What is a function?
+// Why do we use functions?
+// How do you create a function?
+// What are parameters?
+// What are arguments?
+// What is return?
+// Function declaration vs function expression?
+// What is an arrow function?
+// What is an anonymous function?
+// What is a callback function?
+// What is a higher-order function?
+// What is a default parameter?
+// What is a rest parameter?
+// What is a pure function?
+// What is an IIFE?
+// What is a recursive function?
+// What is a closure?
+// What is the difference between normal and arrow functions?
+// How does this work inside a function?
+// Can a function return another function?
+
+
+
+
+
+
+
+
+
+
+
+
+
 //^name function 
 
 // function abc(a,b){

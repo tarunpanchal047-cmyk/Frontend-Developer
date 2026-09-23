@@ -1,6 +1,5 @@
 //! Event Handler in javascript 
-// event handler are special arrtibute which is used to call a function when the user perform the action 
-// all event handler prefix it all keyword.
+//^ Event handler are special arrtibute which is used to call a function when the user perform the action all event handler prefix it all keyword.
 
 
 //! Types of Event Handler

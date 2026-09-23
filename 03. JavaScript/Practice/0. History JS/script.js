@@ -12,7 +12,7 @@
     //~ Initially, it was named Mocha. Then, the name was changed to LiveScript.
     //~ Again, for marketing purposes, the name was changed to JavaScript because at that time Java was a very popular language. 
     //~ To get the popularity of Java, the owner of Java (Sun Microsystems) and the owner of JavaScript (Netscape Corporation) together 
-    //~ Made an agrement and then the name was changed into JavaScript.
+    //~ made an agrement and then the name was changed into JavaScript.
     //~ Again, in 1997, JavaScript became ECMA Script. ECMA stands for European Computer Manufacturers Association.
     //~ Then, different versions of ECMAScript were released. The latest version of ECMAScript is ECMAScript 2026.
     //~ The famous versions of ECMAScript are: ES6, ES7 and ES9.
@@ -40,8 +40,6 @@
                 //* Weekly and lossely type programming language
                     //~ It means a semicolon is not mandatory at the end of every line, but if you are writing multiple statements on the same line, then you have to put a semicolon.
 //-----------------------------------
-
-
 
     //console.log("hello js");
     // console.log("helo");
@@ -83,3 +81,101 @@
 //~ Weakly and loosely typed programming language
     // let a = 10 // Semicolon nahi lagaya, fir bhi chalega
     // let b = 20; let c = 30; // Ek hi line mein multiple statements hain, toh semicolon zaroori hai
+
+
+
+
+
+//! 21. JavaScript Coding Questions ⭐⭐⭐
+
+//^ Practice writing code for these:
+
+// Reverse a string.
+// Check palindrome string.
+// Reverse a number.
+// Check palindrome number.
+// Find factorial.
+// Generate Fibonacci series.
+// Check prime number.
+// Print prime numbers from 1–100.
+// Check Armstrong number.
+// Find sum of digits.
+// Find largest number in an array.
+// Find smallest number in an array.
+// Find second-largest number.
+// Find second-smallest number.
+// Find sum of array elements.
+// Find average of an array.
+// Remove duplicates.
+// Find duplicate elements.
+// Find missing number.
+// Sort an array without sort().
+// Reverse an array without reverse().
+// Find common elements between two arrays.
+// Merge two arrays.
+// Count frequency of array elements.
+// Move zeros to the end.
+// Find pairs whose sum equals a target.
+// Separate even and odd numbers.
+// Flatten a nested array.
+// Find maximum using reduce().
+// Find sum using reduce().
+// Filter even numbers.
+// Double every number using map().
+// Find the longest word.
+// Count vowels.
+// Count characters.
+// Remove duplicate characters.
+// Check whether two strings are anagrams.
+// Reverse every word in a sentence.
+// Find first non-repeating character.
+// Find first repeating character.
+// Find frequency of characters.
+// Capitalize every word.
+// Find an object by ID.
+// Sort an array of objects.
+// Filter users based on age.
+// Find the highest salary from an array of objects.
+// Group objects by category.
+// Calculate shopping cart total.
+// Implement your own map().
+// Implement your own filter().
+// Implement your own reduce().
+
+
+
+
+
+
+//! 🔥 Top 30 — Must Prepare First
+
+// var, let, const
+// Data types
+// == vs ===
+// null vs undefined
+// Hoisting
+// Scope
+// Functions
+// Arrow functions
+// Parameters vs arguments
+// Callback functions
+// Closures
+// this
+// Arrays
+// Objects
+// map()
+// filter()
+// reduce()
+// forEach()
+// find()
+// Destructuring
+// Spread/rest operator
+// DOM
+// Events
+// Event bubbling and Event capturing
+// Promises
+// async/await
+// fetch()
+// JSON
+// localStorage and sessionStorage
+// Coding questions: palindrome, reverse string, factorial, Fibonacci, prime, duplicates, second-largest, missing number

@@ -150,6 +150,57 @@ console.log(str)
 
 
 
+//! 🟢 Basic JavaScript Coding Questions
+// Reverse a string.
+// Check whether a string is a palindrome.
+// Find the largest number in an array.
+// Find the smallest number in an array.
+// Find the sum of all array elements.
+// Find the average of array elements.
+// Count vowels in a string.
+// Count consonants in a string.
+// Count the number of words in a string.
+// Find the length of a string without using .length.
+// Remove spaces from a string.
+// Convert a string to uppercase/lowercase.
+// Swap two numbers.
+// Check whether a number is even or odd.
+// Check whether a number is positive, negative, or zero.
+// Find the factorial of a number.
+// Generate a multiplication table.
+// Print numbers from 1 to 100.
+// Print even numbers from 1 to 100.
+// Print odd numbers from 1 to 100.
+
+
+
+
+//! 🟠 String Coding Questions
+// Reverse each word in a sentence.
+// Find the first non-repeating character.
+// Find the first repeating character.
+// Check whether two strings are anagrams.
+// Count character frequency.
+// Remove duplicate characters.
+// Find the longest word.
+// Find the shortest word.
+// Capitalize the first letter of every word.
+// Check whether a string contains only numbers.
+// Count occurrences of a character.
+// Replace all occurrences of a character.
+// Check whether two strings are rotations.
+// Find the longest substring without repeating characters.
+
+
+
+
+
+
+
+
+
+
+
 
 
 let ab = "I am a good software developer"
