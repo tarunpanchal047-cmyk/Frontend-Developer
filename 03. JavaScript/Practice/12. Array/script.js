@@ -299,6 +299,10 @@
 
 //! 🟡 Array Coding Questions
 
+// Find the largest number in an array.
+// Find the smallest number in an array.
+// Find the sum of all array elements.
+// Find the average of array elements.
 // Remove duplicate elements from an array.
 // Find duplicate elements.
 // Find the second-largest number.

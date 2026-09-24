@@ -66,8 +66,7 @@ console.log(str)
 // console.log(str.slice(-2,-7));   //  It accept index and find the character present at that index. It support negative value.
 
 // ? substring() : It accepts two arguments starting and ending index return the sequence of characters.
-// ? negative values are covered
-// ? if starting index is greather than ending index than values are swapped.
+//?  negative values are covered if starting index is greather than ending index than values are swapped.
 
 // console.log(str.substring(2,7));
 // console.log(str.substring(7,2));
@@ -153,10 +152,6 @@ console.log(str)
 //! 🟢 Basic JavaScript Coding Questions
 // Reverse a string.
 // Check whether a string is a palindrome.
-// Find the largest number in an array.
-// Find the smallest number in an array.
-// Find the sum of all array elements.
-// Find the average of array elements.
 // Count vowels in a string.
 // Count consonants in a string.
 // Count the number of words in a string.
