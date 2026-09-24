@@ -1009,10 +1009,10 @@
     {
       "id": "xJKidyH3O5DlM8_2Iieyi",
       "type": "rectangle",
-      "x": -190.28945797107963,
-      "y": 5325.90959087964,
-      "width": 259.51027581068706,
-      "height": 48.65818648378081,
+      "x": -194.66134212402386,
+      "y": 5336.8393846492845,
+      "width": 207.77624847740424,
+      "height": 43.19331739472,
       "angle": 0,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "transparent",
@@ -1028,11 +1028,11 @@
         "type": 3
       },
       "seed": 2028285951,
-      "version": 54,
-      "versionNonce": 549246737,
+      "version": 119,
+      "versionNonce": 400503011,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1787718274157,
+      "updated": 1790276030363,
       "link": null,
       "locked": false
     },
@@ -2129,6 +2129,36 @@
       "originalText": "https://nishantkumarbhadani.vercel.app/",
       "autoResize": true,
       "lineHeight": 1.25
+    },
+    {
+      "id": "n5tiq4RtLOd_NrK0G-sdJ",
+      "type": "rectangle",
+      "x": -182.20622742405385,
+      "y": 7061.06052865459,
+      "width": 150.83042021299661,
+      "height": 45.54068692522105,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b0K",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1735227427,
+      "version": 37,
+      "versionNonce": 1411405389,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1790275747380,
+      "link": null,
+      "locked": false
     }
   ],
   "appState": {
