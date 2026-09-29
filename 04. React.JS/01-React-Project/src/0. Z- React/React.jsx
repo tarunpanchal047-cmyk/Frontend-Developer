@@ -56,7 +56,8 @@
 
 //^ eslint.config.js
 // -------------------
-// It is the tool that check react code for mistake and bad coding practices. It automatically detect error and infrocaces coding standard in react application. It find syntax error missing bracket and warn about unused variables
+// It is the tool that check react code for mistake and bad coding practices. It automatically detect error and
+// infrocaces coding standard in react application. It find syntax error missing bracket and warn about unused variables
 
 //^ package-lock.json
 // ------------------
@@ -121,17 +122,24 @@
 
 //! 4. Virtual DOM :
 // -----------------------
-//  It is a light weight copy of the real DOM. React uses virtual DOM to improves it performance instead of updating the actual real DOM. React first update the virtual DOM and figure out what change and then only updated data is patched to the real DOM.
+//  It is a light weight copy of the real DOM. React uses virtual DOM to improves it performance instead of updating the actual real DOM.
+//  React first update the virtual DOM and figure out what change and then only updated data is patched to the real DOM.
 
 //! What is reconciliation :
 // ---------------------------------
-//   IN reconciliation the old version of DOM is compare with the new virtual DOM to identify the changes that need to be updated in the real DOM. Whenever something changes in the application React creates a new virtual DOM in this new virtual DOM tree. Each element of the application is represented as a node. When the state or Prop of a component changes react creates a new virtual DOM and then compares it with the previous virtual DOM tree. this comparison is called Deeping.
+//   IN reconciliation the old version of DOM is compare with the new virtual DOM to identify the changes that need to be updated in the real DOM.
+//   Whenever something changes in the application React creates a new virtual DOM in this new virtual DOM tree. Each element of the application is represented as a node.
+//   When the state or Prop of a component changes react creates a new virtual DOM and then compares it with the previous virtual DOM tree. this comparison is called Deeping.
 
-// * React uses Huffman deefing algorithm to efficiently compares the old virtual DOM tree and newly updated DOM tree . After finding the diff react update only the changed node or element into the real DOM. Instead to re-rendering the entire application . This process improves react application performance and make it faster.
+//*  React uses Huffman deefing algorithm to efficiently compares the old virtual DOM tree and newly updated DOM tree . 
+//*  After finding the diff react update only the changed node or element into the real DOM. Instead to re-rendering the entire application.
+//*  This process improves react application performance and make it faster.
 
 //! React fiber
 // ----------------------
-// It is the new reconciliation engine which is inducting react16. it is the improved version of react reconciliation algorithm . that makes rendering faster smoother and uninterruptable react fiber help react to handle large radaring task into small chunks . So important user interaction remains fast and smooth.
+//  It is the new reconciliation engine which is inducting react16. it is the improved version of react reconciliation algorithm.
+//  that makes rendering faster smoother and uninterruptable react fiber help react to handle large radaring task into small chunks.
+//  So important user interaction remains fast and smooth.
 
 
 //! Diff btw class Base component or function Base component
@@ -161,7 +169,8 @@
 // -> A module in js is a separate file that contains reusable code.
 // ex : variable , classes function etx
 // which can be exported and used in another file.
-// Modules allows you to splite your code into smaller manageable pices. Insted of writing everything inside one big file you can divide the code into muntiple files and connect them using import and export.
+// Modules allows you to splite your code into smaller manageable pices. Insted of writing everything inside one big file you can divide
+// the code into muntiple files and connect them using import and export.
 
 //! -----> Types of modules in js
 // -------------------------------------
@@ -177,8 +186,10 @@
 // ----------------------------
 //! named import and export : 
 // ----------------------------------
-// it allow u to export multiple variables and functions from a module using their name. It is called named import because your must have to use the exact exported name while importing
-// Default import Export : Default export is used when a module export only one main value(function , class, obj , or variable). No Curley bracket were used for default import. We can give it any name while importing. Each module can have only one default export
+// it allow u to export multiple variables and functions from a module using their name. It is called named import because your must have 
+// to use the exact exported name while importing
+// Default import Export : Default export is used when a module export only one main value(function , class, obj , or variable).
+// No Curley bracket were used for default import. We can give it any name while importing. Each module can have only one default export
 
 
 

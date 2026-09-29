@@ -16,7 +16,7 @@
 //^ -->  useState is a react hook which helps function base component to make it form stateless to stateful.
 //^  It accepts one argument that is called initial value and it returns an array. which consists two value.
 //^  First value is the variable which holds the initial value. And 2nd value is the updater function which
-//^  help to update initial value. 
+//^  help to update initial value. It is known as settle function dispature function.
 
 //! Conditional Rendering  :
 //--------------------------------------
