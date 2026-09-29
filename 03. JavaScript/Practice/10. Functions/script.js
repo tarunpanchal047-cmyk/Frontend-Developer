@@ -7,13 +7,22 @@
 // }
 // ab(10,20);
 
-// const { useCallback } = require("react")
-
 
 // function abc(a , b){
 //     console.log(a + b)
 // }
 // abc(10,20)
+
+
+// function abc (){
+//     console.log("Tarun");
+//     console.log("Tarun");
+//     console.log("Tarun");
+//     console.log("Tarun");
+//     console.log("Tarun");
+//     console.log("Tarun");
+// }
+// abc();
 
 
 //& Types of Function : 
@@ -27,6 +36,13 @@
 // }
 // num(100,200);
 
+// function dance(v1){
+//     console.log(`${v1} nach raha hai`)
+// }
+// dance("ghoda")
+// dance("hiran")
+// dance("sher")
+// dance("hathi")
 
 
 // function sum(a,b){
@@ -112,7 +128,7 @@
 // fnWithEx();
 // fnWithEx2();
 
-//!  5. First class function ---> function ko value ki tarh twite kr tenhai
+//!  5. First class function ---> function ko value ki tarh treat kr sakhte hai
 
 // function abc (val){
 //     val();
@@ -121,13 +137,14 @@
 //     console.log("jbdwjhbdj");
 // });
 
-// function abc(val){
-// val()
+// function abc (val){
+// val();
 // }
 // abc(function(){
-//     console.log("ndihih")
-// }
-// )
+//     console.log("Tarun Panchal");
+// });
+
+
 
 //!  6. First citizen function  
 
@@ -153,14 +170,17 @@
 //^  A function which accepts another function as a argument. It is known as higher order function.
 // function abc(val){
 //     return function(){
-// console.log("kwdhuwjb")
+// console.log("kwdhuwjb");
 //     }
 // }
-// abc()()
+// abc()();
 
-
-
-
+//  function abc (){
+//     return function(){
+//         console.log("Tarun")
+//     }
+//  }
+//  abc()()
 
 //!  9. Call back function : 
 //^  A function which is passed as the argument it is known as callback function.
@@ -171,8 +191,6 @@
 //     console.log(a+b+c);
 // })
 // abc()
-
-
 
 
 
@@ -264,6 +282,15 @@
 // pure(100,2);
 // pure(100,2);
 
+// function anc (a,b){
+//     console.log(a*b)
+// }
+// anc(10,2)
+// anc(10,2)
+// anc(10,2)
+// anc(10,2)
+
+
 
 
 // let a = 12;
@@ -305,6 +332,13 @@
 // }
 // abc();
 
+
+// function abc (v1, v2){
+//     console.log(v1 + v2)
+// }
+// abc()
+
+
 // abc(500,500);
 // abc(500);
 
@@ -315,9 +349,13 @@
 // function  abc(a,b,c,...data){
 //     console.log(a,b,c,data)
 // }
-
 // abc(1,2,3,4,5,6,7,8,9)
 
+
+// function abc (a,b,c,...val){
+// console.log(a,b,c,val)
+// }
+// abc (1,2,3,44,55,66,7,8,9,0)
 
 
 // function abc(...data){
@@ -368,13 +406,30 @@
 // }
 // let result = outer();
 // result();
-// result();
-// result();
 
+
+// function abc(){
+//     let a = 12
+//     return function(){
+//         console.log(a)
+
+//     }
+// }
+// abc()
+
+// function ef (){
+//     let name = "Tarun"
+// function abc(){
+//     console.log(name)
+// }
+// return abc 
+// }
+// let res = ef()
+// res()
 
 //!  Java script Currying : 
-//^  Currying is a finction programming technique that transforms a function taking multiple arguments into a sequence of nested function 
-//^   each taking a single argument. Instead of evaluating f(a,b,c) all at once, curring decomposes it to 
+//^  Currying is a function programming technique that transforms a function taking multiple arguments into a sequence of nested function 
+//^   each taking a single arrgument. Instead of evaluating f(a,b,c) all at once, curring decomposes it to 
 
 // function sum(a){
 //     console.log("function 1");
@@ -426,7 +481,21 @@
 // How do you create a function?
 // What are parameters?
 // What are arguments?
+
 // What is return?
+// retun mtlb jahase aay ho vohi dal dege 
+// function abc(){
+//     return 12;
+// }
+// let res = abc();
+// console.log(res);
+
+// function ab (){
+//     return "Tarun";
+// }
+// let val = ab();
+// console.log(val)
+
 // Function declaration vs function expression?
 // What is an arrow function?
 // What is an anonymous function?
@@ -441,15 +510,6 @@
 // What is the difference between normal and arrow functions?
 // How does this work inside a function?
 // Can a function return another function?
-
-
-
-
-
-
-
-
-
 
 
 
@@ -568,12 +628,116 @@
 
 
 
+//! ==============================
+
+// function getScores(){
+// let total = 0;
+// getScores.forEach(function(val){
+//     total = total + val;
+// })
+// return total;
+// }
+// console.log(getScores(10,12,14,18));
+
+//! ==================================
+
+// function f (){
+//     return 
+// }
+// console.log(f())
+
+//! =====================================
+
+// function abc (val){
+// val()
+// }
+// abc(function(){
+//     console.log("Tarun")
+// })
+
+//! ============================================
+// HOF---
+
+// function abc (){
+//     return function(){
+
+//     }
+// }
+
+//! ======================================== clouser
+
+// function anc(){
+//     let val = 1
+//     return function(){
+// console.log(val)
+//     }
+// }
+
+//! ========================================
+
+// (function abc (){
+//     console.log("Tarun")
+// })()
+
+//! ========================================
+
+// bmi calculator
+
+// function bmi(weight , height){
+//     return weight / (height*height);
+// }
+// console.log(bmi(50,1.7));
+// console.log(bmi(50,1.7).toFixed(2));
 
 
+//! =============================================
+
+// function abc(discount){
+// return function(price){
+// return price - price * (discount / 100)
+//   }
+// }
+// let discount = abc(10)
+// console.log(discount(200))
+
+//! ===========================================================
+
+// function abc(discount){
+//     return function(price){
+// return price - price * (discount /  100)
+//     }
+// }
+// let discount = abc(10)
+// console.log(discount(500))
+
+//! =========================================================
+
+// function abc(){
+//     let count = 0;
+//     return function(){
+//         count ++;
+//         return count;
+//     }
+// }
+// let c = abc();
+// console.log(c());
+
+// let d = abc();
+// console,log(d());
+
+//! =========================================================
+
+// function abc (val){
+// return val * 2;
+// }
+// console.log(abc(5));
+
+//! ===============================================================
+
+// (function anc (){
+//     const password = "secret password"
+//     console.log(password)
+// })()
 
 
-
-
-
-
-
+// console.log(password);       ------ error

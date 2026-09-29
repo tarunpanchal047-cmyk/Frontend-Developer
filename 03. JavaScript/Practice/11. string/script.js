@@ -151,6 +151,10 @@ console.log(str)
 
 //! 🟢 Basic JavaScript Coding Questions
 // Reverse a string.
+let abc =  "Tarun"
+let reverse = abc.split("").reverse().join("");
+console.log(reverse);
+
 // Check whether a string is a palindrome.
 // Count vowels in a string.
 // Count consonants in a string.

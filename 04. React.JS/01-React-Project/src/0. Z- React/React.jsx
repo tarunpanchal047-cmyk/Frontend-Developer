@@ -19,7 +19,8 @@
 //! What is a library ?
 
 //  A library is a collection of pre-written code that you can use to solve common problems,
-//  instead of writing everything from scratch.
+//  instead of writing everything from scratch. For example, React is a JavaScript library used for
+//  building user interfaces. Examples : React, jQuery, Lodash, Axios.
 //  A library is a collection of modules that provide reusable functions or features. 
 //  Analogy : A library is like a toolbox — you open it and use the tools you need,
 //  instead of making your own tools every time. 
@@ -27,16 +28,43 @@
 //!  What is a Framework ? 
 //  A framework is a complete structure that gives you rules and a fixed way to build an application.
 //  And it is  a collection of libraries . 
-//  Example  Angular / Django / Spring Boot (Frameworks) → They tell you how to structure your app. 
+//  Example :  Next.js / Angular / Django / Spring Boot (Frameworks) → They tell you how to structure your app. 
 
 //! Characteristics of React js 
-//  ● React JS is a JS Library.  
+//  ●  React JS is a JS Library.  
 //  ●  Component Based Architecture.  
 //  ●  Open Source Language  
 //  ●  React JS is used to make Single Page Applications.  
-//  ● Declarative · Unidirectional  
+//  ●  Declarative  Unidirectional  
 //  ●  Learn Once, write anywhere  
-//  ●  Virtual DOM . 
+//  ●  Virtual DOM.
+
+//! Modules in javaScirpt
+// -----------------------------
+// -> A module in js is a separate file that contains reusable code.
+// ex : variable , classes , function etc.
+// which can be exported and used in another file.
+// Modules allows you to splite your code into smaller manageable pices. Insted of writing everything inside one big file you can divide
+// the code into muntiple files and connect them using import and export.
+
+//! -----> Types of modules in js
+// -------------------------------------
+//! 1. Common js:
+// -----------------
+//  It is a module system which us used in NodeJS. It uses require method and module. Export
+
+//! 2. ES6 module : 
+// ----------------------
+// It is interduce in ES6(2015) It uses import and export keyword
+
+//! Types of ES6 module.
+// ----------------------------
+//! named import and export : 
+// ----------------------------------
+// it allow u to export multiple variables and functions from a module using their name. It is called named import because your must have 
+// to use the exact exported name while importing
+// Default import Export : Default export is used when a module export only one main value(function , class, obj , or variable).
+// No Curley bracket were used for default import. We can give it any name while importing. Each module can have only one default export
 
 
 //! Files and Folder present inside the react application
@@ -164,32 +192,7 @@
 // NO this keyword
 
 
-//! Modules in javaScirpt
-// -----------------------------
-// -> A module in js is a separate file that contains reusable code.
-// ex : variable , classes function etx
-// which can be exported and used in another file.
-// Modules allows you to splite your code into smaller manageable pices. Insted of writing everything inside one big file you can divide
-// the code into muntiple files and connect them using import and export.
 
-//! -----> Types of modules in js
-// -------------------------------------
-//! 1. Common js:
-// -----------------
-//  It is a module system which us used in NodeJS. It uses require method and module. Export
-
-//! 2. ES6 module : 
-// ----------------------
-// It is interduce in ES6(2015) It uses import and export keyword
-
-//! Types of ES module.
-// ----------------------------
-//! named import and export : 
-// ----------------------------------
-// it allow u to export multiple variables and functions from a module using their name. It is called named import because your must have 
-// to use the exact exported name while importing
-// Default import Export : Default export is used when a module export only one main value(function , class, obj , or variable).
-// No Curley bracket were used for default import. We can give it any name while importing. Each module can have only one default export
 
 
 
