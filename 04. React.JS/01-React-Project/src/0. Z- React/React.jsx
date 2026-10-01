@@ -1,11 +1,11 @@
 
 //! What is React JS ?
 
-//^  React is a JavaScript library developed by Facebook. It was created by Jordan Walke and open-sourced in 2013.
+//^  React is a JavaScript library developed by Facebook. It was developed by Jordan Walke a software engineer and open-sourced in 2013.
 //^  React is used to build interactive user interfaces and single-page applications. It uses reusable components to make development easier.
 //^  Node.js is commonly used for React development, while npm is used to install packages and npx is used to run packages.
 
-//  It is the javaScript of library in which is maintain by meta and group of individual developer.
+//  It is the javaScript library in which is maintain by meta and group of individual developer.
 //  It is developed by Jordan walke . A software engineer in Facebook.
 //  React was deployed on facebook newsfeed In 2011. And later on Instagram in 2012.
 //  Angular Vue javaScript backbone js etc are the other library which is used for creating single page application. 
@@ -14,13 +14,14 @@
 //  To install the react file or folder : We have to use NodeJS
 //  NodeJS is the runtime environment which is used for executing js file outside the browser.
 //  When we install react or any other library we have to used npm and npx .
-//  npm and npx it comes by default with the nodeJs.
+//  npm and npx it comes by default with the nodejs.
  
 //! What is a library ?
 
 //  A library is a collection of pre-written code that you can use to solve common problems,
 //  instead of writing everything from scratch. For example, React is a JavaScript library used for
 //  building user interfaces. Examples : React, jQuery, Lodash, Axios.
+
 //  A library is a collection of modules that provide reusable functions or features. 
 //  Analogy : A library is like a toolbox — you open it and use the tools you need,
 //  instead of making your own tools every time. 
@@ -62,8 +63,10 @@
 //! named import and export : 
 // ----------------------------------
 // it allow u to export multiple variables and functions from a module using their name. It is called named import because your must have 
-// to use the exact exported name while importing
-// Default import Export : Default export is used when a module export only one main value(function , class, obj , or variable).
+// to use the exact exported name while importing.
+
+//! Default import Export : 
+// Default export is used when a module export only one main value(function , class, obj , or variable).
 // No Curley bracket were used for default import. We can give it any name while importing. Each module can have only one default export
 
 
@@ -101,7 +104,7 @@
 
 //^ vite.config.js
 // -----------------
-// It is a configuration file which is used to customize and control the vite behaviour for a project
+// It is a configuration file which is used to customize and control the vite behaviour for a project.
 
 //! What are Bundlers ? 
 //  A bundler is a tool that takes many files in your project (JS, CSS, images, etc.) and 
@@ -109,12 +112,10 @@
 //   In simple words they will take different files and bundle it into one . 
 
 //! What is babbel ? 
-// Babel is a js compiler that converts modern JavaScript into old JavaScript so that 
-// all browsers can understand it. 
+// Babbel is a js compiler that converts modern JavaScript into old JavaScript so that all browsers can understand it. 
 
 //! What is JSX ?
-//  JSX (JavaScript XML) is a special syntax used in React that lets you write HTML-like code
-//  inside JavaScript. 
+//  JSX (JavaScript XML) is a special syntax used in React that lets you write HTML-like code inside JavaScript. 
 
 //! Rules of jsx ?
 //  ● JSX must return a single parent element. 
@@ -140,11 +141,11 @@
 
 //! 2. Component base architecture :
 // ----------------------------------------
-//  It is a way to build react application by breaking them into reusable independent pic of code. There are two type of component in react.
+//  It is a way to build react application by breaking them into reusable independent pices of code. There are two type of component in react.
 //     I. Class base component
 //     II . Function base component
 
-//! 3. React is declarative :
+//! 3. Declarative :
 // ---------------------------------
 //  because we describe what the UI should look like based on the state. React automatically update the DOM accordingly.
 
@@ -155,7 +156,7 @@
 
 //! What is reconciliation :
 // ---------------------------------
-//   IN reconciliation the old version of DOM is compare with the new virtual DOM to identify the changes that need to be updated in the real DOM.
+//   In reconciliation the old version of DOM is compare with the new virtual DOM to identify the changes that need to be updated in the real DOM.
 //   Whenever something changes in the application React creates a new virtual DOM in this new virtual DOM tree. Each element of the application is represented as a node.
 //   When the state or Prop of a component changes react creates a new virtual DOM and then compares it with the previous virtual DOM tree. this comparison is called Deeping.
 

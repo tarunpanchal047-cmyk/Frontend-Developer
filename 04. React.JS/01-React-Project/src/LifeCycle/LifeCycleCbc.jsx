@@ -1,6 +1,6 @@
 //! Phases of Component or Life Cycle :
 // ----------------------------
-//^ -> React lifecycle means the different stages a component goes through. 
+//^ -> React lifecycle means the different stages of a component goes through. 
 //! There are three phases of component :
 //? 1. Mounting phase 
 //? 2. Updation phase 

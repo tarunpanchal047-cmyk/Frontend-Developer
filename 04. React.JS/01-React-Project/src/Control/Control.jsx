@@ -8,7 +8,7 @@
 //  ● If a state is used to maintain or control the data entered into an input field / form, such a component is said to be a controlled component.
 //  ● In controlled components,  we have to do three important things 
 // a) State variable 
-// b)Value Attribute 
+// b) Value Attribute 
 // c) onChange Event 
 //^ Steps: 
 // 1. Initialize the state Variable. 

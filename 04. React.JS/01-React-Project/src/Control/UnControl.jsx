@@ -1,6 +1,6 @@
 //! Uncontrolled Component : -------------
 // ---------------------
-//^  An Uncontrolled Component in whcih input element manages their on data using the browser DOM. and the react
+//^  An Uncontrolled Component in which input element manages their on data using the browser DOM. and the react
 //^  access the values only when required using ref this concepts exist because react needed away manage form data.
 //^  either through it state or buy allowing the browser to hanlde it.
 

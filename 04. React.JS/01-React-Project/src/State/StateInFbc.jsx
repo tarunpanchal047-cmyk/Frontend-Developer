@@ -33,6 +33,12 @@
 //   component only when a condition evaluates to true or false, without writing an explicit if-else. 
 //   const isAdmin = true; {isAdmin && <h1>Admin Panel</h1>} 
 
+//! What is Optional Chaining (?.)?
+// ----------------------------------------
+//^  Optional chaining safely checks whether something exists before using it. 
+//^  If it doesn’t exist, it returns undefined instead of throwing an error. 
+
+
 
 import { useState } from "react";
 function StateInFbc() {

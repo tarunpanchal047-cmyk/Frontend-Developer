@@ -1,5 +1,5 @@
 //! - Memoization
-//^     - it is a code optimization technique that makes application more faster and efficient.
+//^    - it is a code optimization technique that makes application more faster and efficient.
 //^    - It does this by storing computational result in cache and retrieving the same information from the cache.
 //^    - The next time it's needed, instead of computing it again
 

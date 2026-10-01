@@ -17,7 +17,7 @@
 //^  Client side routing is the routing process where every URL changes without reloading the page and the browser renders the components dynamically.
 
 //! 2. Server side routing : 
-//^ server side routing is thr process where every URL request is sent to the server and the server returns a new html page for each rout.
+//^ server side routing is the process where every URL request is sent to the server and the server returns a new html page for each rout.
 
 
 import { createBrowserRouter, createRoutesFromElements, Route } from "react-router-dom";

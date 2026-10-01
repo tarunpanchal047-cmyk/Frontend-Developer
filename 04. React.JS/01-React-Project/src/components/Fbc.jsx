@@ -7,10 +7,11 @@
 
 //! Fragment : 
 // --------------------------------
-//^  A Fragment in react is used to multiple elements without adding extra node in the DOM tree. Fragment help us to avoids extra div wrapper. There are two ways to creating fragment.
+//^ A Fragment in react is used to multiple elements without adding extra node in the DOM tree. Fragment help us to avoids extra div wrapper. 
+//^ There are two ways to creating fragment.
 //^  ----> Way of writing fragment
-//^         1. <Fragment></Fragment>
-//^         2. <> </>
+//^         1. <Fragment></Fragment>   ------------ named 
+//^         2. <> </>                  ------------ empty 
 
 
 import React, { Fragment } from 'react'

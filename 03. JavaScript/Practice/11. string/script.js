@@ -44,7 +44,7 @@ console.log(str)
 // console.log(str.length);
 
 // ! Method of string :
-// ? at() : It accepts index and fine the character present at the index. It supports negative values.
+// ? at() : It accepts index and line the character present at the index. It supports negative values.
 // let str = "Tarun";
 // console.log(str.at(3));
 

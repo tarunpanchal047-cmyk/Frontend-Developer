@@ -3,7 +3,7 @@
 //^  in java script array can be homogenous at an hatrogenous.
 
 //! literal's way :
-//^omogenous Array : same line data 
+//^ Homogenous Array : same line data 
 // let arr = [10,20,30,40,50,60];
 // console.log(arr);
 
@@ -232,7 +232,7 @@
 // console.log(res);
 
 //! reduce() :
-//^  It always return a single value. it accepts teo arrguments callback function, and initial data which is optinal.
+//^  It always return a single value. it accepts two arrguments callback function, and initial data which is optinal.
 // ? accumulator : it is the total result given by the reduce method.
 // ? current Val : it store each element present inside an array.
 // ^ syntax : arr.reduce(callback,initialVal);
