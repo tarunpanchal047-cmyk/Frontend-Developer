@@ -51,7 +51,12 @@
 //      console.log(sym1 == sym2)
 //      console.log(typeof sym1)      //symbol
 
-
+console.log([]+{})
+console.log({}+[])
+console.log(!![])
+console.log(!!{})
+console.log(typeof NaN)
+console.log(undefined + undefined)
 
 
 
